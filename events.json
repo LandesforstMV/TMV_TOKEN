@@ -17,6 +17,284 @@
   ],
   "@graph": [
     {
+      "@id": "7dec85d0-6974-4cbd-8f66-10408e067dd8",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de"
+      ],
+      "dc:classification": [
+        {
+          "@id": "f5ccc7de-f92a-4970-9273-68ec7c8b7556",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f64cb33a-d8da-41b5-a556-d13f35b687b7",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1940f6a2-8bff-41b3-a7cc-7b66efdae2b4",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "7051b962-2211-4deb-ab11-80cc9eb1a168",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "9efca376-b157-4aa8-8d89-4c7af187cdb4",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Weihnachtsbaumverkauf",
+      "startDate": "2026-12-08T10:00:00.000+01:00",
+      "endDate": "2026-12-12T13:00:00.000+01:00",
+      "description": "Weihnachtbaumverkauf am Forstamt Lüttenhagen",
+      "dc:additionalInformation": [
+        {
+          "@id": "4af978bd-cad4-4cbd-92ef-f70620b3c58a",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "b6e4458d-4879-4fa9-b360-328bddab45b9",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "image": [
+        {
+          "@id": "efa03e65-c050-4f3a-9be5-509d32aef16d",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "c0668942-b42e-4499-a94e-af3e20232cbe",
+          "@type": [
+            "Place",
+            "Organization",
+            "LocalBusiness",
+            "dcls:LocalBusiness"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "10d47ab3-c65d-4807-a054-74742460cd61",
+          "@type": "Schedule"
+        },
+        {
+          "@id": "91e37321-e31f-42c3-b662-99864c4c724f",
+          "@type": "Schedule"
+        },
+        {
+          "@id": "b5485ce7-9e91-458a-b511-8d4a17ea3cd7",
+          "@type": "Schedule"
+        },
+        {
+          "@id": "886806bd-71be-43b2-8a84-1b4b72880a6c",
+          "@type": "Schedule"
+        },
+        {
+          "@id": "69a5623d-d4ba-4c09-bbf1-fbe2ff91a875",
+          "@type": "Schedule"
+        }
+      ],
+      "organizer": [
+        {
+          "@id": "c0668942-b42e-4499-a94e-af3e20232cbe",
+          "@type": [
+            "Place",
+            "Organization",
+            "LocalBusiness",
+            "dcls:LocalBusiness"
+          ]
+        }
+      ],
+      "dc:slug": "weihnachtsbaumverkauf-2",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "7dec85d0-6974-4cbd-8f66-23989ded80e1",
+          "value": 45.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ],
+      "imxContentScore": 54.0
+    },
+    {
+      "@id": "cb200220-0728-40a7-9da8-d25a53fc0cf8",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "ae0ac702-8e39-4899-8997-f45215b721d0",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "6a49109c-8f4a-4c6b-9a2f-59f3b75db9ae",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1940f6a2-8bff-41b3-a7cc-7b66efdae2b4",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "b6c429e7-a440-4976-868c-10708194fb89",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "4a29e54f-eb10-491e-a292-b9174af8e217",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Motorsägenkurs zur privaten Brennholzselbstwerbung Forstamt Billenhagen",
+      "startDate": "2027-02-26T08:00:00.000+01:00",
+      "endDate": "2027-02-26T18:00:00.000+01:00",
+      "description": "Motorsägenkurs 6 freie/r Platz/Plätze von 6; Anmeldeschluss: 08.02.2027",
+      "dc:additionalInformation": [
+        {
+          "@id": "01c69278-7feb-4973-a931-3326ddc2e987",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "723518bb-28ec-4448-b1a8-97f8fdf63063",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "9057475e-b857-4d86-afac-c64a9659a9e6",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "7339dee7-04e7-4814-a1d9-3a1fa2ad0d2b",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "47384137-bf83-4a71-b3b7-31a0d7990f11",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "cd8d79b9-658a-41d3-860d-a138b7409cd3",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "44dee969-c253-4896-929b-ae6158969e89",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "9c64bbf1-87b8-46dd-90a1-a0b2b04dd553",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "6b7ef75b-dd8a-4f20-a9f0-a05e48c75532",
+          "@type": [
+            "Place",
+            "Organization",
+            "LocalBusiness",
+            "dcls:LocalBusiness"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "9373ddf4-957f-4919-b5db-896c056d2024",
+          "@type": "Schedule"
+        }
+      ],
+      "organizer": [
+        {
+          "@id": "6b7ef75b-dd8a-4f20-a9f0-a05e48c75532",
+          "@type": [
+            "Place",
+            "Organization",
+            "LocalBusiness",
+            "dcls:LocalBusiness"
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "@id": "f33fd21d-5c6a-4da4-bd0b-289a840bb6ab",
+          "@type": [
+            "Intangible",
+            "Offer",
+            "dcls:Angebot"
+          ]
+        }
+      ],
+      "dc:slug": "motorsaegenkurs-zur-privaten-brennholzselbstwerbung-forstamt-billenhagen",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "cb200220-0728-40a7-9da8-e1824017f1c1",
+          "value": 45.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ],
+      "imxContentScore": 52.5
+    },
+    {
       "@id": "909c14aa-91b8-4b83-9ecb-f9cffa60eb4d",
       "@type": [
         "Event",
@@ -192,7 +470,7 @@
     }
   ],
   "meta": {
-    "total": 1,
+    "total": 3,
     "pages": 1,
     "collection": {
       "id": "746971a3-49fd-4e83-af9e-15a64b9991c3",
