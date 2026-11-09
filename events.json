@@ -1,1 +1,204 @@
-{"@context":["https://schema.org/",{"@base":"https://contenthub.tmv.de/api/v4/universal/","@language":"de","skos":"https://www.w3.org/2009/08/skos-reference/skos.html#","dct":"http://purl.org/dc/terms/","cc":"http://creativecommons.org/ns#","dc":"https://schema.datacycle.at/","dcls":"https://contenthub.tmv.de/schema/","og":"https://ogp.me/ns#","odta":"https://odta.io/voc/","sdm":"https://smartdatamodels.org/","alps":"http://json-schema.org/draft-07/schema/destinationdata/schemas/2022-04/datatypes#/definitions/"}],"@graph":[{"@id":"909c14aa-91b8-4b83-9ecb-f9cffa60eb4d","@type":["Event","dcls:Event"],"dc:multilingual":true,"dc:translation":["de","en","pl","nl"],"dc:classification":[{"@id":"2b3bb10e-e831-4cbf-b209-2e6383a837cd","@type":"skos:Concept"},{"@id":"b62dcf33-3de5-467a-b002-55e575b1ab16","@type":"skos:Concept"},{"@id":"eb287bcf-db05-4075-86e4-73f90b0210b8","@type":"skos:Concept"},{"@id":"8d03d556-19bb-4089-ac24-e5942d7b9d6a","@type":"skos:Concept"},{"@id":"ab90ae24-d5e8-4b11-af04-a16aef7b31ca","@type":"skos:Concept"},{"@id":"fc51ff85-0507-49f8-8e33-d5e94e91bbd9","@type":"skos:Concept"},{"@id":"1940f6a2-8bff-41b3-a7cc-7b66efdae2b4","@type":"skos:Concept"},{"@id":"62fc3581-4a47-476b-a518-5903cf512728","@type":"skos:Concept"},{"@id":"b6c429e7-a440-4976-868c-10708194fb89","@type":"skos:Concept"},{"@id":"9fce698e-c461-4368-a3a0-642d29285b1a","@type":"skos:Concept"},{"@id":"000c14fb-cb9b-4ded-860c-edfdc9c1a495","@type":"skos:Concept"}],"name":"Waldarbeitermeisterschaft 2027","startDate":"2027-09-11T09:00:00.000+02:00","endDate":"2027-09-11T09:00:00.000+02:00","description":"Mitmach-Aktionen \u0026 Stände •Baumklettern (Fr \u0026 Sa): Kinder und Jugendliche können unter Anleitung erfahrener Baumsteigerinnen und Baumsteiger der LFoA gesichert hoch hinaus. •Genuss in Halle 1: Stand „Wild vom Förster“ mit kulinarischen Highlights aus heimischen Revieren. •Information \u0026 Spass in Halle 3: Gemeinschaftsstand mit dem Ministerium. Mit Angeboten der Waldservice und Energie GmbH zu „Waldtherapie“ und „Waldprävention“ sowie einem spannenden Wald-und-Wirtschaft-Quiz für Kinder.","dc:additionalInformation":[{"@id":"0a4f2637-80e1-49ad-af18-bb19a38118f8","@type":["CreativeWork","dcls:Ergänzende Information"]},{"@id":"ee25fe77-ca14-4be6-9ecc-d249ce84ff5d","@type":["CreativeWork","dcls:Ergänzende Information"]},{"@id":"f17abedb-876d-4912-baef-c662378cf9fc","@type":["CreativeWork","dcls:Ergänzende Information"]},{"@id":"a544052f-b539-46f2-a200-b5fa7f820689","@type":["CreativeWork","dcls:Ergänzende Information"]},{"@id":"32597f84-a674-4206-9887-46f3360ca2bf","@type":["CreativeWork","dcls:Ergänzende Information"]},{"@id":"caae3b44-2f4c-4e63-97a3-c4ab499f0a31","@type":["CreativeWork","dcls:Ergänzende Information"]},{"@id":"1a411fdc-1e78-4799-acae-fad2ca2d6603","@type":["CreativeWork","dcls:Ergänzende Information"]},{"@id":"a74cd665-96f7-43b9-9d6b-8e122a365f00","@type":["CreativeWork","dcls:Ergänzende Information"]}],"image":[{"@id":"6c6c70d5-6372-49b6-8b62-60c66cdb7fbf","@type":["CreativeWork","MediaObject","ImageObject","dcls:Bild"]}],"location":[{"@id":"b33547f2-7051-4457-bfab-ddac001ad394","@type":["Place","Organization","LocalBusiness","dcls:LocalBusiness"]}],"eventSchedule":[{"@id":"ca7ba2a2-e896-46d1-a79f-8ef140fa83bc","@type":"Schedule"}],"organizer":[{"@id":"f6124d85-2413-443a-9837-24f1ed01a125","@type":["Place","Organization","LocalBusiness","dcls:LocalBusiness"]}],"dc:slug":"waldarbeitermeisterschaft-2027","dc:contentScore":[{"@type":"PropertyValue","identifier":"internalContentScore","name":"Interner Content Score","@id":"909c14aa-91b8-4b83-9ecb-ca17e98b1674","value":60.0,"minValue":0,"maxValue":100}],"imxContentScore":61.5}],"meta":{"total":1,"pages":1,"collection":{"id":"746971a3-49fd-4e83-af9e-15a64b9991c3","name":"Events-Landesforst-API","slug":"events-landesforst"}},"links":{}}
+{
+  "@context": [
+    "https://schema.org/",
+    {
+      "@base": "https://contenthub.tmv.de/api/v4/universal/",
+      "@language": "de",
+      "skos": "https://www.w3.org/2009/08/skos-reference/skos.html#",
+      "dct": "http://purl.org/dc/terms/",
+      "cc": "http://creativecommons.org/ns#",
+      "dc": "https://schema.datacycle.at/",
+      "dcls": "https://contenthub.tmv.de/schema/",
+      "og": "https://ogp.me/ns#",
+      "odta": "https://odta.io/voc/",
+      "sdm": "https://smartdatamodels.org/",
+      "alps": "http://json-schema.org/draft-07/schema/destinationdata/schemas/2022-04/datatypes#/definitions/"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "909c14aa-91b8-4b83-9ecb-f9cffa60eb4d",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "2b3bb10e-e831-4cbf-b209-2e6383a837cd",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "b62dcf33-3de5-467a-b002-55e575b1ab16",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "eb287bcf-db05-4075-86e4-73f90b0210b8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "8d03d556-19bb-4089-ac24-e5942d7b9d6a",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1940f6a2-8bff-41b3-a7cc-7b66efdae2b4",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "62fc3581-4a47-476b-a518-5903cf512728",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "b6c429e7-a440-4976-868c-10708194fb89",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "9fce698e-c461-4368-a3a0-642d29285b1a",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "000c14fb-cb9b-4ded-860c-edfdc9c1a495",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Waldarbeitermeisterschaft 2027",
+      "startDate": "2027-09-11T09:00:00.000+02:00",
+      "endDate": "2027-09-11T09:00:00.000+02:00",
+      "description": "Mitmach-Aktionen & Stände •Baumklettern (Fr & Sa): Kinder und Jugendliche können unter Anleitung erfahrener Baumsteigerinnen und Baumsteiger der LFoA gesichert hoch hinaus. •Genuss in Halle 1: Stand „Wild vom Förster“ mit kulinarischen Highlights aus heimischen Revieren. •Information & Spass in Halle 3: Gemeinschaftsstand mit dem Ministerium. Mit Angeboten der Waldservice und Energie GmbH zu „Waldtherapie“ und „Waldprävention“ sowie einem spannenden Wald-und-Wirtschaft-Quiz für Kinder.",
+      "dc:additionalInformation": [
+        {
+          "@id": "0a4f2637-80e1-49ad-af18-bb19a38118f8",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "ee25fe77-ca14-4be6-9ecc-d249ce84ff5d",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "f17abedb-876d-4912-baef-c662378cf9fc",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "a544052f-b539-46f2-a200-b5fa7f820689",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "32597f84-a674-4206-9887-46f3360ca2bf",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "caae3b44-2f4c-4e63-97a3-c4ab499f0a31",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "1a411fdc-1e78-4799-acae-fad2ca2d6603",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "a74cd665-96f7-43b9-9d6b-8e122a365f00",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "image": [
+        {
+          "@id": "6c6c70d5-6372-49b6-8b62-60c66cdb7fbf",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "b33547f2-7051-4457-bfab-ddac001ad394",
+          "@type": [
+            "Place",
+            "Organization",
+            "LocalBusiness",
+            "dcls:LocalBusiness"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "ca7ba2a2-e896-46d1-a79f-8ef140fa83bc",
+          "@type": "Schedule"
+        }
+      ],
+      "organizer": [
+        {
+          "@id": "f6124d85-2413-443a-9837-24f1ed01a125",
+          "@type": [
+            "Place",
+            "Organization",
+            "LocalBusiness",
+            "dcls:LocalBusiness"
+          ]
+        }
+      ],
+      "dc:slug": "waldarbeitermeisterschaft-2027",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "909c14aa-91b8-4b83-9ecb-ca17e98b1674",
+          "value": 60.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ],
+      "imxContentScore": 61.5
+    }
+  ],
+  "meta": {
+    "total": 1,
+    "pages": 1,
+    "collection": {
+      "id": "746971a3-49fd-4e83-af9e-15a64b9991c3",
+      "name": "Events-Landesforst-API",
+      "slug": "events-landesforst"
+    }
+  },
+  "links": {}
+}
