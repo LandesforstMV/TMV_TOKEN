@@ -1,0 +1,74 @@
+name: Update Events JSON
+
+on:
+  schedule:
+    - cron: '0 6 * * *' # Läuft jeden Tag um 06:00 Uhr UTC
+  workflow_dispatch: # Ermöglicht den manuellen Start über den GitHub-Tab "Actions"
+
+jobs:
+  update-events:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Daten von TMV ContentHub abrufen und speichern
+        run: |
+          python -c '
+          import json
+          import urllib.request
+
+          url = "https://contenthub.tmv.de/api/v4/endpoints/746971a3-49fd-4e83-af9e-15a64b9991c3"
+          token = "7e7d7b65eaf77d045c91936b76b7e764"
+          
+          # Filter für alle Veranstaltungen über alle Mandanten hinweg
+          payload = {
+              "filter": {
+                  "classifications": {
+                      "in": {
+                          "withSubtree": ["814b38bc-c0af-455b-af47-a0e894eff1af"]
+                      }
+                  }
+              }
+          }
+
+          req = urllib.request.Request(
+              url,
+              data=json.dumps(payload).encode("utf-8"),
+              headers={
+                  "Authorization": f"Bearer {token}",
+                  "Content-Type": "application/json",
+                  "Accept": "application/json"
+              },
+              method="POST"
+          )
+
+          try:
+              with urllib.request.urlopen(req) as response:
+                  res_data = response.read().decode("utf-8")
+                  parsed = json.loads(res_data)
+                  
+                  with open("events.json", "w", encoding="utf-8") as f:
+                      json.dump(parsed, f, ensure_ascii=False, indent=2)
+                  
+                  total_count = parsed.get("meta", {}).get("total", "unbekannt")
+                  print(f"Erfolgreich aktualisiert. Anzahl der gefundenen Veranstaltungen: {total_count}")
+          except Exception as e:
+              print(f"Fehler beim Abrufen der Schnittstelle: {e}")
+              exit(1)
+          '
+
+      - name: Änderungen in GitHub speichern (Commit & Push)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add events.json
+          git diff --staged --quiet || git commit -m "Automatischer Event-Export aller Mandanten aktualisiert"
+          git push
