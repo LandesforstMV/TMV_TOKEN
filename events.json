@@ -17,6 +17,171 @@
   ],
   "@graph": [
     {
+      "@id": "59bd2c15-6b5a-4bde-a2e5-3c9998758095",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "1d22d305-4164-45df-b315-9e9545bc6395",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f5ccc7de-f92a-4970-9273-68ec7c8b7556",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "604edb2e-c5d3-4803-9dc5-438a945558c9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f1fd4fe1-7ae1-4e81-aff7-40c3802e92c1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1940f6a2-8bff-41b3-a7cc-7b66efdae2b4",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "7051b962-2211-4deb-ab11-80cc9eb1a168",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "9efca376-b157-4aa8-8d89-4c7af187cdb4",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Weihnachtsbaumverkauf auf der Mirower Inselweihnacht",
+      "startDate": "2026-12-05T10:00:00.000+01:00",
+      "endDate": "2026-12-05T18:00:00.000+01:00",
+      "description": "Das Forstamt Mirow verkauft am 05.12.2026 auf der Mirower Inselweihnacht auch dieses Jahr wieder regionale Weihnachtsbäume aus Mecklenburg-Vorpommern.",
+      "dc:additionalInformation": [
+        {
+          "@id": "30d4be44-6de5-4a92-99f4-28237ab0727b",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "5310c3d0-9c11-4980-971c-4c2054bf0959",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "da3d4218-7ab5-4693-8cb8-74f1ad8c318c",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "fc3eb76d-af5c-40d6-bc6a-08a922cfdc5a",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "f4f6e7c0-15f4-4c8e-bc6d-e3b2b99158fe",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "c2c29654-e34b-4e2c-b550-c2f44cb16f33",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "29eb7bf3-9f0b-4911-8500-979dbafbd72e",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "614ffd12-b9ef-4476-a7d4-e956c51dc83d",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "6329094f-5d72-457b-afb8-6b1e7ec5eef6",
+          "@type": [
+            "Place",
+            "Organization",
+            "LocalBusiness",
+            "dcls:LocalBusiness"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "fe2553c5-47aa-47d9-b624-af546f44d4d2",
+          "@type": "Schedule"
+        }
+      ],
+      "organizer": [
+        {
+          "@id": "e5038184-0faf-4032-bd14-a1117a95e792",
+          "@type": [
+            "Place",
+            "Organization",
+            "LocalBusiness",
+            "dcls:LocalBusiness"
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "@id": "822844eb-973a-4ac5-8cb8-22bdfa596034",
+          "@type": [
+            "Intangible",
+            "Offer",
+            "dcls:Angebot"
+          ]
+        }
+      ],
+      "dc:slug": "weihnachtsbaumverkauf-auf-der-mirower-inselweihnacht",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "59bd2c15-6b5a-4bde-a2e5-0f418b9e7dac",
+          "value": 60.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ],
+      "imxContentScore": 52.5
+    },
+    {
       "@id": "7dec85d0-6974-4cbd-8f66-10408e067dd8",
       "@type": [
         "Event",
@@ -24,9 +189,16 @@
       ],
       "dc:multilingual": true,
       "dc:translation": [
-        "de"
+        "de",
+        "en",
+        "pl",
+        "nl"
       ],
       "dc:classification": [
+        {
+          "@id": "fab5066f-a5b7-48b5-a180-2bba465c42e5",
+          "@type": "skos:Concept"
+        },
         {
           "@id": "f5ccc7de-f92a-4970-9273-68ec7c8b7556",
           "@type": "skos:Concept"
@@ -37,6 +209,14 @@
         },
         {
           "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "8d461de3-ec8c-4b5c-b9af-13af36ae25f7",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
           "@type": "skos:Concept"
         },
         {
@@ -70,6 +250,48 @@
             "CreativeWork",
             "dcls:Ergänzende Information"
           ]
+        },
+        {
+          "@id": "020ac585-22c1-493e-bbd9-3cf637206d2c",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "17f770e8-8d8d-446a-881e-84a125d3af8c",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "5a64a264-5808-42be-84ec-2abf35a7bb7e",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "7551a0ae-2928-4ceb-863c-0f766f945e00",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "d1e2e638-0ada-4f4b-b701-7cb6112df438",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "6d47124a-fc65-4693-93f9-82217dc69114",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
         }
       ],
       "image": [
@@ -96,23 +318,23 @@
       ],
       "eventSchedule": [
         {
-          "@id": "10d47ab3-c65d-4807-a054-74742460cd61",
+          "@id": "58ed4395-b007-4d39-a8f2-73281fa3fbe7",
           "@type": "Schedule"
         },
         {
-          "@id": "91e37321-e31f-42c3-b662-99864c4c724f",
+          "@id": "02c4d527-d723-4fbc-9114-e77e06d0c177",
           "@type": "Schedule"
         },
         {
-          "@id": "b5485ce7-9e91-458a-b511-8d4a17ea3cd7",
+          "@id": "6902e13f-91f7-4b5f-bf1d-2c8d4d32eef4",
           "@type": "Schedule"
         },
         {
-          "@id": "886806bd-71be-43b2-8a84-1b4b72880a6c",
+          "@id": "c97fc193-3797-4050-8d22-7bc2aa3e825a",
           "@type": "Schedule"
         },
         {
-          "@id": "69a5623d-d4ba-4c09-bbf1-fbe2ff91a875",
+          "@id": "72f90d1e-fd76-4ad2-8591-abae0e3c7398",
           "@type": "Schedule"
         }
       ],
@@ -134,12 +356,346 @@
           "identifier": "internalContentScore",
           "name": "Interner Content Score",
           "@id": "7dec85d0-6974-4cbd-8f66-23989ded80e1",
-          "value": 45.0,
+          "value": 60.0,
           "minValue": 0,
           "maxValue": 100
         }
       ],
       "imxContentScore": 54.0
+    },
+    {
+      "@id": "43d09c15-e30d-4045-933e-d7c3151c96bf",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "7f2bef2a-2c5d-4231-bfa5-9fbe6d6ecc92",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f5ccc7de-f92a-4970-9273-68ec7c8b7556",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "604edb2e-c5d3-4803-9dc5-438a945558c9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "0aff2477-f560-469f-a280-1e370f3921c9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1940f6a2-8bff-41b3-a7cc-7b66efdae2b4",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "7051b962-2211-4deb-ab11-80cc9eb1a168",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "9efca376-b157-4aa8-8d89-4c7af187cdb4",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Weihnachtsbaumverkauf an der Försterei Priepert",
+      "startDate": "2026-12-12T10:00:00.000+01:00",
+      "endDate": "2026-12-12T15:00:00.000+01:00",
+      "description": "Das Forstamt Mirow verkauft am 12.12.2026 wieder regionale Weihnachtsbäume an der Alten Försterei Priepert.",
+      "dc:additionalInformation": [
+        {
+          "@id": "58d77752-2454-4586-93b8-04e59623fb70",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "37cea613-fcbb-4f8c-a8ef-cabcee33915a",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "3af40704-3e3c-47d5-8e67-354364772196",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "ea1bb687-e6ad-4be9-96a4-94492c07341c",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "c1aff22a-7e45-4ff0-a683-fc2c869cae1d",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "4d1a450d-28d3-4e4e-9682-1d1bc2b1bb8f",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "142fc71c-b4ff-4126-9d1b-716d245b2785",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "db9d350e-efef-4e8c-bc78-007a9ce13bc0",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "2243991f-cb41-4a8d-a31c-93dce0ce4b73",
+          "@type": [
+            "Place",
+            "Organization",
+            "LocalBusiness",
+            "dcls:LocalBusiness"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "de8351ff-2d47-487c-b943-78efa0a3bae1",
+          "@type": "Schedule"
+        }
+      ],
+      "organizer": [
+        {
+          "@id": "f934719f-612f-415f-ad3d-babdff61e033",
+          "@type": [
+            "Place",
+            "Organization",
+            "LocalBusiness",
+            "dcls:LocalBusiness"
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "@id": "cb7da838-25fe-4352-ab41-49f30faf01be",
+          "@type": [
+            "Intangible",
+            "Offer",
+            "dcls:Angebot"
+          ]
+        }
+      ],
+      "dc:slug": "weihnachtsbaumverkauf-an-der-foersterei-priepert",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "43d09c15-e30d-4045-933e-e41b06f76b86",
+          "value": 60.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ],
+      "imxContentScore": 52.5
+    },
+    {
+      "@id": "6d3fcc94-edbf-4bd5-a758-f5af0b102a61",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "1d22d305-4164-45df-b315-9e9545bc6395",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f5ccc7de-f92a-4970-9273-68ec7c8b7556",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "604edb2e-c5d3-4803-9dc5-438a945558c9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f1fd4fe1-7ae1-4e81-aff7-40c3802e92c1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "330e3837-6163-4748-9701-95d18e0c989c",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1940f6a2-8bff-41b3-a7cc-7b66efdae2b4",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "7051b962-2211-4deb-ab11-80cc9eb1a168",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "9efca376-b157-4aa8-8d89-4c7af187cdb4",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Weihnachtsbaumverkauf auf dem Mirower Holm",
+      "startDate": "2026-12-13T10:00:00.000+01:00",
+      "endDate": "2026-12-13T15:00:00.000+01:00",
+      "description": "Weihnachtsbaumverkauf auf dem Mirower Holm",
+      "dc:additionalInformation": [
+        {
+          "@id": "b293e83b-8470-4e26-a368-cf9b18f14585",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "ac9958e3-8842-44f1-8d7a-e4737635d264",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "51f0678f-9913-496e-ac48-d41b08b83364",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "1a25a7d6-00c5-4421-ae7c-9289b48344d4",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "f7b465ee-1c07-4d78-aeb2-88648c9fe83f",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "40c568f4-7555-4d0a-bdda-7b3eb2568668",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "4d9c2c55-109e-47f9-b3fa-76713106a14d",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "e97b8903-eda7-4071-b88c-b5e07fe483ef",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "e9c7fedd-ce49-4cec-8c81-aaeaba34f358",
+          "@type": [
+            "Place",
+            "Organization",
+            "LocalBusiness",
+            "dcls:LocalBusiness"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "0e175307-b961-44c6-b29f-561e0a2003ee",
+          "@type": "Schedule"
+        }
+      ],
+      "organizer": [
+        {
+          "@id": "f934719f-612f-415f-ad3d-babdff61e033",
+          "@type": [
+            "Place",
+            "Organization",
+            "LocalBusiness",
+            "dcls:LocalBusiness"
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "@id": "79453625-e2e5-46b2-a506-1e87afc995e8",
+          "@type": [
+            "Intangible",
+            "Offer",
+            "dcls:Angebot"
+          ]
+        }
+      ],
+      "dc:slug": "weihnachtsbaumverkauf-auf-dem-mirower-holm",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "6d3fcc94-edbf-4bd5-a758-c67718fbd758",
+          "value": 60.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ],
+      "imxContentScore": 45.0
     },
     {
       "@id": "cb200220-0728-40a7-9da8-d25a53fc0cf8",
@@ -156,6 +712,10 @@
       ],
       "dc:classification": [
         {
+          "@id": "275963d5-85f9-4ca8-b937-fb0b7beecc29",
+          "@type": "skos:Concept"
+        },
+        {
           "@id": "ae0ac702-8e39-4899-8997-f45215b721d0",
           "@type": "skos:Concept"
         },
@@ -165,6 +725,14 @@
         },
         {
           "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "37f61522-9045-414f-a67d-44d87c714937",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "27e4ab2a-79ad-4d62-9d24-bfaea4cbe3e8",
           "@type": "skos:Concept"
         },
         {
@@ -242,6 +810,17 @@
           ]
         }
       ],
+      "image": [
+        {
+          "@id": "9f800a0a-3756-4768-8c24-a84908eb6ed1",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ]
+        }
+      ],
       "location": [
         {
           "@id": "6b7ef75b-dd8a-4f20-a9f0-a05e48c75532",
@@ -255,7 +834,7 @@
       ],
       "eventSchedule": [
         {
-          "@id": "9373ddf4-957f-4919-b5db-896c056d2024",
+          "@id": "e19b31a2-d031-4686-a01b-2d6d012bcf43",
           "@type": "Schedule"
         }
       ],
@@ -287,12 +866,12 @@
           "identifier": "internalContentScore",
           "name": "Interner Content Score",
           "@id": "cb200220-0728-40a7-9da8-e1824017f1c1",
-          "value": 45.0,
+          "value": 60.0,
           "minValue": 0,
           "maxValue": 100
         }
       ],
-      "imxContentScore": 52.5
+      "imxContentScore": 61.5
     },
     {
       "@id": "909c14aa-91b8-4b83-9ecb-f9cffa60eb4d",
@@ -470,7 +1049,7 @@
     }
   ],
   "meta": {
-    "total": 3,
+    "total": 6,
     "pages": 1,
     "collection": {
       "id": "746971a3-49fd-4e83-af9e-15a64b9991c3",
