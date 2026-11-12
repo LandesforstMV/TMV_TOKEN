@@ -814,6 +814,10 @@
       ],
       "dc:classification": [
         {
+          "@id": "12077c36-c0a2-45fe-8b37-f565c454cd44",
+          "@type": "skos:Concept"
+        },
+        {
           "@id": "f6c353b6-ff33-4d87-b986-5fa486d50374",
           "@type": "skos:Concept"
         },
@@ -831,6 +835,14 @@
         },
         {
           "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ea4ff6dc-6a35-4c6f-ad4f-1e90a0cf29d4",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
           "@type": "skos:Concept"
         },
         {
@@ -959,7 +971,7 @@
           "identifier": "internalContentScore",
           "name": "Interner Content Score",
           "@id": "59f6f49b-a04b-4bea-88f2-9c6fcd408b1a",
-          "value": 45.0,
+          "value": 60.0,
           "minValue": 0,
           "maxValue": 100
         }
@@ -980,6 +992,10 @@
         "nl"
       ],
       "dc:classification": [
+        {
+          "@id": "485a1c62-2a60-401c-a94b-ba3927938bec",
+          "@type": "skos:Concept"
+        },
         {
           "@id": "f6c353b6-ff33-4d87-b986-5fa486d50374",
           "@type": "skos:Concept"
@@ -1002,6 +1018,14 @@
         },
         {
           "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ea4ff6dc-6a35-4c6f-ad4f-1e90a0cf29d4",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
           "@type": "skos:Concept"
         },
         {
@@ -1158,7 +1182,7 @@
           "identifier": "internalContentScore",
           "name": "Interner Content Score",
           "@id": "51ee7fc6-2877-49a7-8ce8-e33760c3753d",
-          "value": 45.0,
+          "value": 60.0,
           "minValue": 0,
           "maxValue": 100
         }
@@ -1404,6 +1428,10 @@
       ],
       "dc:classification": [
         {
+          "@id": "27f9127f-0274-48fe-b17f-20d185cbe544",
+          "@type": "skos:Concept"
+        },
+        {
           "@id": "df9337fd-55c8-40f2-b27d-18ebc8af911b",
           "@type": "skos:Concept"
         },
@@ -1433,6 +1461,10 @@
         },
         {
           "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bdf4a6cd-5909-49f7-a505-c23921a9d6e5",
           "@type": "skos:Concept"
         },
         {
@@ -1545,12 +1577,457 @@
           "identifier": "internalContentScore",
           "name": "Interner Content Score",
           "@id": "cae1149e-bd35-4cc3-a9a5-f7d2d1fff82a",
-          "value": 45.0,
+          "value": 60.0,
           "minValue": 0,
           "maxValue": 100
         }
       ],
       "imxContentScore": 42.5
+    },
+    {
+      "@id": "e098b7e0-6cf8-4d4b-9d1e-d00786777201",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "5e43e860-eb72-4840-9e2f-b91204eeaccf",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "a39ed844-023a-4ab6-aa49-de60f5d1aec9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f5ccc7de-f92a-4970-9273-68ec7c8b7556",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "57bf8c41-31ef-49a0-8808-39754f71e3fe",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bdf4a6cd-5909-49f7-a505-c23921a9d6e5",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1940f6a2-8bff-41b3-a7cc-7b66efdae2b4",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "7051b962-2211-4deb-ab11-80cc9eb1a168",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "9efca376-b157-4aa8-8d89-4c7af187cdb4",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Weihnachtsbaumverkauf 2026",
+      "startDate": "2026-12-12T10:00:00.000+01:00",
+      "endDate": "2026-12-13T10:00:00.000+01:00",
+      "description": "vielfältige Weihnachtsartikel Weihnachtsbäume Grillwurst u.v.m.",
+      "dc:additionalInformation": [
+        {
+          "@id": "3331a346-5a40-4550-81c1-1ac636406cba",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "6ec3cb4a-b3fb-4678-a9c9-6565ac3cb66f",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "6989ab37-a9c2-4700-a985-5dd9789617a0",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "2ce9063f-e3c8-4b58-afa9-78039f927dee",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "6359adb1-6992-48cb-ba02-7e07e55aeb1b",
+          "@type": [
+            "Place",
+            "Organization",
+            "LocalBusiness",
+            "dcls:LocalBusiness"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "0715e4ad-5f50-4191-b59f-f47b394f7456",
+          "@type": "Schedule"
+        },
+        {
+          "@id": "2fcdf6c2-bda6-42f1-957b-0d5c2c31a149",
+          "@type": "Schedule"
+        }
+      ],
+      "organizer": [
+        {
+          "@id": "5eab413f-adbf-45f5-b029-6f86f38399be",
+          "@type": [
+            "Place",
+            "Organization",
+            "LocalBusiness",
+            "dcls:LocalBusiness"
+          ]
+        }
+      ],
+      "dc:slug": "weihnachtsbaumverkauf-2026-9",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "e098b7e0-6cf8-4d4b-9d1e-e3df959c8f38",
+          "value": 60.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ],
+      "imxContentScore": 35.0
+    },
+    {
+      "@id": "45940888-3b05-4670-8a8c-79e6cdbef6f7",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "d9717d39-1ff6-41c8-a6b7-27cd95c0fb49",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "a39ed844-023a-4ab6-aa49-de60f5d1aec9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f5ccc7de-f92a-4970-9273-68ec7c8b7556",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "57bf8c41-31ef-49a0-8808-39754f71e3fe",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bdf4a6cd-5909-49f7-a505-c23921a9d6e5",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1940f6a2-8bff-41b3-a7cc-7b66efdae2b4",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "7051b962-2211-4deb-ab11-80cc9eb1a168",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "9efca376-b157-4aa8-8d89-4c7af187cdb4",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Weihnachtsbaumverkauf 2026",
+      "startDate": "2026-12-12T10:00:00.000+01:00",
+      "endDate": "2026-12-13T10:00:00.000+01:00",
+      "description": "Den Weihnachtsbaum beim Förster \"selber haun\" vielfältige Wilderzeugnisse und Wildbraten Wildgrillwurst Holzdeko, Keramik, Bücher u.v.m.",
+      "dc:additionalInformation": [
+        {
+          "@id": "daea3190-f4cb-417d-91dc-868443bd9f10",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "a5b58c77-06ca-4ef9-ab87-eb977f1469bd",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "16f7f4b6-c438-43d8-b1cf-9787439887d1",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "b37b8281-ede2-4452-8dd3-c4db50fd89c4",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "8fc48267-be96-4249-b20f-c27204eabf9e",
+          "@type": [
+            "Place",
+            "Organization",
+            "LocalBusiness",
+            "dcls:LocalBusiness"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "61a7ef78-9f3a-475f-9c30-8f1da56d96a8",
+          "@type": "Schedule"
+        },
+        {
+          "@id": "1bb59510-396f-4c57-a505-2702dee934fd",
+          "@type": "Schedule"
+        }
+      ],
+      "organizer": [
+        {
+          "@id": "5eab413f-adbf-45f5-b029-6f86f38399be",
+          "@type": [
+            "Place",
+            "Organization",
+            "LocalBusiness",
+            "dcls:LocalBusiness"
+          ]
+        }
+      ],
+      "dc:slug": "weihnachtsbaumverkauf-2026-8",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "45940888-3b05-4670-8a8c-4a3ede550bce",
+          "value": 60.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ],
+      "imxContentScore": 42.5
+    },
+    {
+      "@id": "e99e7e7f-6999-4749-ae42-eca332907c35",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "a6a4307f-d6e8-4c3c-8eed-15828c5cb593",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "8d721d10-f7a1-484e-9695-6eebb23ac035",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f5ccc7de-f92a-4970-9273-68ec7c8b7556",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "dd4c2dcc-0596-4840-b93a-a3c2d943ee7f",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "c6750383-0514-44bf-a1e5-fc56aaa96c83",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1940f6a2-8bff-41b3-a7cc-7b66efdae2b4",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "7051b962-2211-4deb-ab11-80cc9eb1a168",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "a5042f57-4b35-41c2-99a8-703fc21de9e8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d685b766-784f-4445-9881-1bf8377ff278",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "9efca376-b157-4aa8-8d89-4c7af187cdb4",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Weihnachtsbaumverkauf",
+      "startDate": "2026-12-12T10:00:00.000+01:00",
+      "endDate": "2026-12-12T10:00:00.000+01:00",
+      "description": "Weihnachtsbaumverkauf an der Revierförsterei Löcknitz",
+      "dc:additionalInformation": [
+        {
+          "@id": "4640019c-4f41-456b-8de6-a64659747f39",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "74e37ab9-9fdf-453b-b020-71b97ed153a9",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "2c8f079a-afcf-436a-a756-80bff77384a1",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "f6e7abd9-3edc-42ec-bda8-d619f9d55be3",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "39fda66c-247f-43cd-bb0f-5091ac955163",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "93bd3600-2c21-48b5-a37d-436a79c04f71",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "0f1c7342-61ab-4bb3-b90e-6684099ad000",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "c87e8c7f-5ee2-482f-84d3-e5138e3098fb",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "3588a6de-130c-473e-b3cb-e6a0fa1b0308",
+          "@type": [
+            "Place",
+            "Organization",
+            "LocalBusiness",
+            "dcls:LocalBusiness"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "624cbe99-b249-4c38-b8f9-8253f99042d1",
+          "@type": "Schedule"
+        }
+      ],
+      "organizer": [
+        {
+          "@id": "3588a6de-130c-473e-b3cb-e6a0fa1b0308",
+          "@type": [
+            "Place",
+            "Organization",
+            "LocalBusiness",
+            "dcls:LocalBusiness"
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "@id": "05246a93-1e82-4a2f-968e-5bf3b022220a",
+          "@type": [
+            "Intangible",
+            "Offer",
+            "dcls:Angebot"
+          ]
+        }
+      ],
+      "sdPublisher": [
+        {
+          "@id": "b2d32222-6729-4e91-a61d-8b01fb29c100",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightNotice": "(c) Forstamt Rothemühl",
+      "dc:slug": "weihnachtsbaumverkauf-4",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "e99e7e7f-6999-4749-ae42-df7b217b810c",
+          "value": 60.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ],
+      "imxContentScore": 45.0
     },
     {
       "@id": "74e87b01-d242-4a45-9106-a7f9f063e606",
@@ -1718,419 +2195,6 @@
         }
       ],
       "imxContentScore": 60.0
-    },
-    {
-      "@id": "e098b7e0-6cf8-4d4b-9d1e-d00786777201",
-      "@type": [
-        "Event",
-        "dcls:Event"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "f5ccc7de-f92a-4970-9273-68ec7c8b7556",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "57bf8c41-31ef-49a0-8808-39754f71e3fe",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "1940f6a2-8bff-41b3-a7cc-7b66efdae2b4",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "7051b962-2211-4deb-ab11-80cc9eb1a168",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "9efca376-b157-4aa8-8d89-4c7af187cdb4",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Weihnachtsbaumverkauf 2026",
-      "startDate": "2026-12-12T10:00:00.000+01:00",
-      "endDate": "2026-12-13T10:00:00.000+01:00",
-      "description": "vielfältige Weihnachtsartikel Weihnachtsbäume Grillwurst u.v.m.",
-      "dc:additionalInformation": [
-        {
-          "@id": "3331a346-5a40-4550-81c1-1ac636406cba",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "6ec3cb4a-b3fb-4678-a9c9-6565ac3cb66f",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "6989ab37-a9c2-4700-a985-5dd9789617a0",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "2ce9063f-e3c8-4b58-afa9-78039f927dee",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        }
-      ],
-      "location": [
-        {
-          "@id": "6359adb1-6992-48cb-ba02-7e07e55aeb1b",
-          "@type": [
-            "Place",
-            "Organization",
-            "LocalBusiness",
-            "dcls:LocalBusiness"
-          ]
-        }
-      ],
-      "eventSchedule": [
-        {
-          "@id": "0715e4ad-5f50-4191-b59f-f47b394f7456",
-          "@type": "Schedule"
-        },
-        {
-          "@id": "2fcdf6c2-bda6-42f1-957b-0d5c2c31a149",
-          "@type": "Schedule"
-        }
-      ],
-      "organizer": [
-        {
-          "@id": "5eab413f-adbf-45f5-b029-6f86f38399be",
-          "@type": [
-            "Place",
-            "Organization",
-            "LocalBusiness",
-            "dcls:LocalBusiness"
-          ]
-        }
-      ],
-      "dc:slug": "weihnachtsbaumverkauf-2026-9",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "e098b7e0-6cf8-4d4b-9d1e-e3df959c8f38",
-          "value": 45.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ],
-      "imxContentScore": 35.0
-    },
-    {
-      "@id": "45940888-3b05-4670-8a8c-79e6cdbef6f7",
-      "@type": [
-        "Event",
-        "dcls:Event"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "f5ccc7de-f92a-4970-9273-68ec7c8b7556",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "57bf8c41-31ef-49a0-8808-39754f71e3fe",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "1940f6a2-8bff-41b3-a7cc-7b66efdae2b4",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "7051b962-2211-4deb-ab11-80cc9eb1a168",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "9efca376-b157-4aa8-8d89-4c7af187cdb4",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Weihnachtsbaumverkauf 2026",
-      "startDate": "2026-12-12T10:00:00.000+01:00",
-      "endDate": "2026-12-13T10:00:00.000+01:00",
-      "description": "Den Weihnachtsbaum beim Förster \"selber haun\" vielfältige Wilderzeugnisse und Wildbraten Wildgrillwurst Holzdeko, Keramik, Bücher u.v.m.",
-      "dc:additionalInformation": [
-        {
-          "@id": "daea3190-f4cb-417d-91dc-868443bd9f10",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "a5b58c77-06ca-4ef9-ab87-eb977f1469bd",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "16f7f4b6-c438-43d8-b1cf-9787439887d1",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "b37b8281-ede2-4452-8dd3-c4db50fd89c4",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        }
-      ],
-      "location": [
-        {
-          "@id": "8fc48267-be96-4249-b20f-c27204eabf9e",
-          "@type": [
-            "Place",
-            "Organization",
-            "LocalBusiness",
-            "dcls:LocalBusiness"
-          ]
-        }
-      ],
-      "eventSchedule": [
-        {
-          "@id": "61a7ef78-9f3a-475f-9c30-8f1da56d96a8",
-          "@type": "Schedule"
-        },
-        {
-          "@id": "1bb59510-396f-4c57-a505-2702dee934fd",
-          "@type": "Schedule"
-        }
-      ],
-      "organizer": [
-        {
-          "@id": "5eab413f-adbf-45f5-b029-6f86f38399be",
-          "@type": [
-            "Place",
-            "Organization",
-            "LocalBusiness",
-            "dcls:LocalBusiness"
-          ]
-        }
-      ],
-      "dc:slug": "weihnachtsbaumverkauf-2026-8",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "45940888-3b05-4670-8a8c-4a3ede550bce",
-          "value": 45.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ],
-      "imxContentScore": 42.5
-    },
-    {
-      "@id": "e99e7e7f-6999-4749-ae42-eca332907c35",
-      "@type": [
-        "Event",
-        "dcls:Event"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "8d721d10-f7a1-484e-9695-6eebb23ac035",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "f5ccc7de-f92a-4970-9273-68ec7c8b7556",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "dd4c2dcc-0596-4840-b93a-a3c2d943ee7f",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "1940f6a2-8bff-41b3-a7cc-7b66efdae2b4",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "7051b962-2211-4deb-ab11-80cc9eb1a168",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "a5042f57-4b35-41c2-99a8-703fc21de9e8",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "d685b766-784f-4445-9881-1bf8377ff278",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "9efca376-b157-4aa8-8d89-4c7af187cdb4",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Weihnachtsbaumverkauf",
-      "startDate": "2026-12-12T10:00:00.000+01:00",
-      "endDate": "2026-12-12T10:00:00.000+01:00",
-      "description": "Weihnachtsbaumverkauf an der Revierförsterei Löcknitz",
-      "dc:additionalInformation": [
-        {
-          "@id": "4640019c-4f41-456b-8de6-a64659747f39",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "74e37ab9-9fdf-453b-b020-71b97ed153a9",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "2c8f079a-afcf-436a-a756-80bff77384a1",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "f6e7abd9-3edc-42ec-bda8-d619f9d55be3",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "39fda66c-247f-43cd-bb0f-5091ac955163",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "93bd3600-2c21-48b5-a37d-436a79c04f71",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "0f1c7342-61ab-4bb3-b90e-6684099ad000",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "c87e8c7f-5ee2-482f-84d3-e5138e3098fb",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        }
-      ],
-      "location": [
-        {
-          "@id": "3588a6de-130c-473e-b3cb-e6a0fa1b0308",
-          "@type": [
-            "Place",
-            "Organization",
-            "LocalBusiness",
-            "dcls:LocalBusiness"
-          ]
-        }
-      ],
-      "eventSchedule": [
-        {
-          "@id": "624cbe99-b249-4c38-b8f9-8253f99042d1",
-          "@type": "Schedule"
-        }
-      ],
-      "organizer": [
-        {
-          "@id": "3588a6de-130c-473e-b3cb-e6a0fa1b0308",
-          "@type": [
-            "Place",
-            "Organization",
-            "LocalBusiness",
-            "dcls:LocalBusiness"
-          ]
-        }
-      ],
-      "offers": [
-        {
-          "@id": "05246a93-1e82-4a2f-968e-5bf3b022220a",
-          "@type": [
-            "Intangible",
-            "Offer",
-            "dcls:Angebot"
-          ]
-        }
-      ],
-      "sdPublisher": [
-        {
-          "@id": "b2d32222-6729-4e91-a61d-8b01fb29c100",
-          "@type": [
-            "Organization",
-            "dcls:Organization"
-          ]
-        }
-      ],
-      "copyrightNotice": "(c) Forstamt Rothemühl",
-      "dc:slug": "weihnachtsbaumverkauf-4",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "e99e7e7f-6999-4749-ae42-df7b217b810c",
-          "value": 45.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ],
-      "imxContentScore": 45.0
     },
     {
       "@id": "43d09c15-e30d-4045-933e-d7c3151c96bf",
@@ -2312,6 +2376,10 @@
       ],
       "dc:classification": [
         {
+          "@id": "4fe44d61-d842-4b24-bccb-b1ade65ed91f",
+          "@type": "skos:Concept"
+        },
+        {
           "@id": "df9337fd-55c8-40f2-b27d-18ebc8af911b",
           "@type": "skos:Concept"
         },
@@ -2333,6 +2401,10 @@
         },
         {
           "@id": "0e716713-47bf-4053-ac14-2f87ef900f48",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "c6750383-0514-44bf-a1e5-fc56aaa96c83",
           "@type": "skos:Concept"
         },
         {
@@ -2471,7 +2543,7 @@
           "identifier": "internalContentScore",
           "name": "Interner Content Score",
           "@id": "cc24606d-8a94-4965-88d5-dbd0ba847f5e",
-          "value": 45.0,
+          "value": 60.0,
           "minValue": 0,
           "maxValue": 100
         }
@@ -2493,6 +2565,10 @@
       ],
       "dc:classification": [
         {
+          "@id": "bdf5799e-b8ff-451a-aa5e-d3a4014ec18b",
+          "@type": "skos:Concept"
+        },
+        {
           "@id": "8d721d10-f7a1-484e-9695-6eebb23ac035",
           "@type": "skos:Concept"
         },
@@ -2510,6 +2586,18 @@
         },
         {
           "@id": "0e716713-47bf-4053-ac14-2f87ef900f48",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ea438f41-0678-43af-ae88-dc2dec2c4f7a",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "74979a36-b04a-4609-b5cc-b6c2432d494c",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "c6750383-0514-44bf-a1e5-fc56aaa96c83",
           "@type": "skos:Concept"
         },
         {
@@ -2650,12 +2738,187 @@
           "identifier": "internalContentScore",
           "name": "Interner Content Score",
           "@id": "cbb25233-e169-4230-8671-61fa542f6ddc",
-          "value": 45.0,
+          "value": 60.0,
           "minValue": 0,
           "maxValue": 100
         }
       ],
       "imxContentScore": 60.0
+    },
+    {
+      "@id": "60768668-3463-4944-99d8-87f62d861fde",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "29cdc985-10e0-488d-874f-592eabf05d6f",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "8d721d10-f7a1-484e-9695-6eebb23ac035",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f5ccc7de-f92a-4970-9273-68ec7c8b7556",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "980c4e69-4ae4-4c14-9782-b0bb52f80c6e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d1b69607-ef04-42a6-b910-15ee6a73f302",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1940f6a2-8bff-41b3-a7cc-7b66efdae2b4",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "62fc3581-4a47-476b-a518-5903cf512728",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "7051b962-2211-4deb-ab11-80cc9eb1a168",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "a5042f57-4b35-41c2-99a8-703fc21de9e8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d685b766-784f-4445-9881-1bf8377ff278",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "9efca376-b157-4aa8-8d89-4c7af187cdb4",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "9739c065-507d-4faa-8049-f35e344ab082",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Weihnachtsbaumverkauf im Forstamt Neubrandenburg",
+      "startDate": "2026-12-13T10:00:00.000+01:00",
+      "endDate": "2026-12-13T15:00:00.000+01:00",
+      "description": "Frischer Weihnachtsbaum direkt aus der Region: Das Forstamt Neubrandenburg lädt im Revier Lübbersdorf zum Baumverkauf ein.",
+      "dc:additionalInformation": [
+        {
+          "@id": "fd7b4d50-cba6-49a8-884a-1f59e4b75594",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "f9881c5d-dfaf-4585-aac5-1ec3141ab909",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "91d22485-9a4e-4d6b-af8f-21e69ae3ab74",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "4268138c-2b61-4104-95e2-0ab4cf217fc5",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "3d39acd8-54ef-4c85-803d-04dd7fd4c869",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "00686e43-5178-4663-a22e-3c36a2b0333a",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "0dd325ac-9af9-46a6-bae2-ba28574d9647",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "9cf02521-4d98-40f5-a09f-8f6f432422e3",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "location": [
+        {
+          "@id": "bb3b1c4f-45ff-4320-a661-afd7e54e53f9",
+          "@type": [
+            "Place",
+            "Organization",
+            "LocalBusiness",
+            "dcls:LocalBusiness"
+          ]
+        }
+      ],
+      "eventSchedule": [
+        {
+          "@id": "7001ee26-60a7-46b0-92f9-7cc1a9be397a",
+          "@type": "Schedule"
+        }
+      ],
+      "organizer": [
+        {
+          "@id": "8eb00e32-3548-4fbc-a5d1-6f9ae775e7b6",
+          "@type": [
+            "Place",
+            "Organization",
+            "LocalBusiness",
+            "dcls:LocalBusiness"
+          ]
+        }
+      ],
+      "dc:slug": "weihnachtsbaumverkauf-im-forstamt-neubrandenburg",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "60768668-3463-4944-99d8-b42e3e6de2e7",
+          "value": 60.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ],
+      "imxContentScore": 52.5
     },
     {
       "@id": "df63e814-03b5-41cb-acbe-07129627c36b",
@@ -2831,173 +3094,6 @@
         }
       ],
       "imxContentScore": 45.0
-    },
-    {
-      "@id": "60768668-3463-4944-99d8-87f62d861fde",
-      "@type": [
-        "Event",
-        "dcls:Event"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "8d721d10-f7a1-484e-9695-6eebb23ac035",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "f5ccc7de-f92a-4970-9273-68ec7c8b7556",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "980c4e69-4ae4-4c14-9782-b0bb52f80c6e",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "d1b69607-ef04-42a6-b910-15ee6a73f302",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "1940f6a2-8bff-41b3-a7cc-7b66efdae2b4",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "62fc3581-4a47-476b-a518-5903cf512728",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "7051b962-2211-4deb-ab11-80cc9eb1a168",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "a5042f57-4b35-41c2-99a8-703fc21de9e8",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "d685b766-784f-4445-9881-1bf8377ff278",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "9efca376-b157-4aa8-8d89-4c7af187cdb4",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "9739c065-507d-4faa-8049-f35e344ab082",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Weihnachtsbaumverkauf im Forstamt Neubrandenburg",
-      "startDate": "2026-12-13T10:00:00.000+01:00",
-      "endDate": "2026-12-13T15:00:00.000+01:00",
-      "description": "Frischer Weihnachtsbaum direkt aus der Region: Das Forstamt Neubrandenburg lädt im Revier Lübbersdorf zum Baumverkauf ein.",
-      "dc:additionalInformation": [
-        {
-          "@id": "fd7b4d50-cba6-49a8-884a-1f59e4b75594",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "f9881c5d-dfaf-4585-aac5-1ec3141ab909",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "91d22485-9a4e-4d6b-af8f-21e69ae3ab74",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "4268138c-2b61-4104-95e2-0ab4cf217fc5",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "3d39acd8-54ef-4c85-803d-04dd7fd4c869",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "00686e43-5178-4663-a22e-3c36a2b0333a",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "0dd325ac-9af9-46a6-bae2-ba28574d9647",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "9cf02521-4d98-40f5-a09f-8f6f432422e3",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        }
-      ],
-      "location": [
-        {
-          "@id": "bb3b1c4f-45ff-4320-a661-afd7e54e53f9",
-          "@type": [
-            "Place",
-            "Organization",
-            "LocalBusiness",
-            "dcls:LocalBusiness"
-          ]
-        }
-      ],
-      "eventSchedule": [
-        {
-          "@id": "7001ee26-60a7-46b0-92f9-7cc1a9be397a",
-          "@type": "Schedule"
-        }
-      ],
-      "organizer": [
-        {
-          "@id": "8eb00e32-3548-4fbc-a5d1-6f9ae775e7b6",
-          "@type": [
-            "Place",
-            "Organization",
-            "LocalBusiness",
-            "dcls:LocalBusiness"
-          ]
-        }
-      ],
-      "dc:slug": "weihnachtsbaumverkauf-im-forstamt-neubrandenburg",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "60768668-3463-4944-99d8-b42e3e6de2e7",
-          "value": 45.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ],
-      "imxContentScore": 52.5
     },
     {
       "@id": "6d3fcc94-edbf-4bd5-a758-f5af0b102a61",
@@ -3681,6 +3777,74 @@
       "imxContentScore": 61.5
     },
     {
+      "@id": "8fc48267-be96-4249-b20f-c27204eabf9e",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "d9717d39-1ff6-41c8-a6b7-27cd95c0fb49",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "a39ed844-023a-4ab6-aa49-de60f5d1aec9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "57bf8c41-31ef-49a0-8808-39754f71e3fe",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "89e8f8f8-a7f4-46b8-9422-c89115c31528",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bdf4a6cd-5909-49f7-a505-c23921a9d6e5",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Revierförsterei Bahlenhüschen",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Zum Forsthof 2",
+        "postalCode": "19089",
+        "addressLocality": "Tramm OT Bahlenhüschen",
+        "@id": "8fc48267-be96-4249-b20f-4a3f9cee2601"
+      },
+      "geo": {
+        "longitude": 11.60382,
+        "@id": "8fc48267-be96-4249-b20f-2eb370095fb2",
+        "@type": "GeoCoordinates",
+        "latitude": 53.51466
+      },
+      "dc:slug": "weihnachtsbaumverkauf-2026-1",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "8fc48267-be96-4249-b20f-f1aa170142a7",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
       "@id": "6b7ef75b-dd8a-4f20-a9f0-a05e48c75532",
       "@type": [
         "Place",
@@ -3755,7 +3919,7 @@
       ]
     },
     {
-      "@id": "3588a6de-130c-473e-b3cb-e6a0fa1b0308",
+      "@id": "f6124d85-2413-443a-9837-24f1ed01a125",
       "@type": [
         "Place",
         "Organization",
@@ -3771,189 +3935,11 @@
       ],
       "dc:classification": [
         {
-          "@id": "dd4c2dcc-0596-4840-b93a-a3c2d943ee7f",
+          "@id": "b17463be-09cc-499b-adac-490775f1514e",
           "@type": "skos:Concept"
         },
         {
-          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Revierförsterei Löcknitz",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Försterweg 15",
-        "postalCode": "17321",
-        "addressLocality": "Löcknitz",
-        "@id": "3588a6de-130c-473e-b3cb-6eed621f9a97",
-        "telephone": "039772/2650",
-        "url": "https://www.wald-mv.de/landesforst-mv/struktur-und-organisation/forstaemter/rothemuehl/"
-      },
-      "dc:slug": "revierfoersterei-loecknitz",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "3588a6de-130c-473e-b3cb-d578e9f0fe31",
-          "value": 36.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ]
-    },
-    {
-      "@id": "8eb00e32-3548-4fbc-a5d1-6f9ae775e7b6",
-      "@type": [
-        "Place",
-        "Organization",
-        "LocalBusiness",
-        "dcls:LocalBusiness"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "d1b69607-ef04-42a6-b910-15ee6a73f302",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Forstamt Neubrandenburg",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Oelmühlenstraße 3",
-        "postalCode": "17033",
-        "addressLocality": "Neubrandenburg",
-        "@id": "8eb00e32-3548-4fbc-a5d1-e7d77f717e29"
-      },
-      "dc:slug": "forstamt-neubrandenburg",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "8eb00e32-3548-4fbc-a5d1-5c42f49e1a8f",
-          "value": 36.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ]
-    },
-    {
-      "@id": "9f800a0a-3756-4768-8c24-a84908eb6ed1",
-      "@type": [
-        "CreativeWork",
-        "MediaObject",
-        "ImageObject",
-        "dcls:Bild"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "ca29fabd-20f2-4795-b2db-f608a1ad8d99",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "6a49109c-8f4a-4c6b-9a2f-59f3b75db9ae",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Motorsägenkurs",
-      "contentUrl": "https://contenthub.tmv.de/asset/9f800a0a-3756-4768-8c24-a84908eb6ed1/dSL7qVH4f1ln4zDnLbcM_IQVpSfx2oQOifHsm-3J-R0/1794318123/default/teaser-motorsaegenkurse-small.jpg",
-      "thumbnailUrl": "https://contenthub.tmv.de/asset/9f800a0a-3756-4768-8c24-a84908eb6ed1/soZit_SbQCjEf8fjpgZEYKiro9Y1PGpF9itlComGtPk/1794318123/thumb/teaser-motorsaegenkurse-small",
-      "sameAs": "https://imxplatform-cust-tmv.fsn1.your-objectstorage.com/media/TMV/teaser-motorsaegenkurse-small_2.jpg",
-      "width": {
-        "@type": "QuantitativeValue",
-        "identifier": "width",
-        "name": "Breite",
-        "unitCode": "E37",
-        "unitText": "pixel",
-        "@id": "9f800a0a-3756-4768-8c24-42e72e4d95f1",
-        "value": 714.0
-      },
-      "height": {
-        "@type": "QuantitativeValue",
-        "identifier": "height",
-        "name": "Höhe",
-        "unitCode": "E37",
-        "unitText": "pixel",
-        "@id": "9f800a0a-3756-4768-8c24-1c7ceaccbb0c",
-        "value": 1000.0
-      },
-      "contentSize": 171160.0,
-      "fileFormat": "image/jpeg",
-      "uploadDate": "2026-11-10",
-      "author": [
-        {
-          "@id": "a21bc459-5112-48ed-ad77-ee92b753507c",
-          "@type": [
-            "Organization",
-            "dcls:Organization"
-          ]
-        }
-      ],
-      "copyrightHolder": [
-        {
-          "@id": "a21bc459-5112-48ed-ad77-ee92b753507c",
-          "@type": [
-            "Organization",
-            "dcls:Organization"
-          ]
-        }
-      ],
-      "mandatoryLicense": false,
-      "dc:webUrl": "https://contenthub.tmv.de/asset/9f800a0a-3756-4768-8c24-a84908eb6ed1/LreVZOnhShXUHv3N6YJlKCK5VbI1pTScLyxzNWR7vcM/1794318123/web/teaser-motorsaegenkurse-small",
-      "copyrightNotice": "(c) LFoA M-V / LFoA M-V",
-      "dc:slug": "motorsaegenkurs",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "9f800a0a-3756-4768-8c24-9b911b0093e8",
-          "value": 67.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ]
-    },
-    {
-      "@id": "e5038184-0faf-4032-bd14-a1117a95e792",
-      "@type": [
-        "Place",
-        "Organization",
-        "LocalBusiness",
-        "dcls:LocalBusiness"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "1d22d305-4164-45df-b315-9e9545bc6395",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "cab2729c-0f60-4bb0-84d9-0f9c2beadcf1",
+          "@id": "f8b6493a-be80-4094-bde6-29269acfe53c",
           "@type": "skos:Concept"
         },
         {
@@ -3962,293 +3948,6 @@
         },
         {
           "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Stadt Mirow",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Rudolf-Breitscheid-Straße 24",
-        "postalCode": "17252",
-        "addressLocality": "Mirow",
-        "@id": "e5038184-0faf-4032-bd14-295ce2917e0d",
-        "telephone": "039833 28032"
-      },
-      "geo": {
-        "longitude": 12.81598,
-        "@id": "e5038184-0faf-4032-bd14-4dd00e7607be",
-        "@type": "GeoCoordinates",
-        "latitude": 53.27858
-      },
-      "dc:slug": "stadt-mirow-1",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "e5038184-0faf-4032-bd14-92c9697e1aab",
-          "value": 61.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ]
-    },
-    {
-      "@id": "1d19a24c-bea8-4bbe-aaae-e4944dc999a4",
-      "@type": [
-        "Place",
-        "Organization",
-        "LocalBusiness",
-        "dcls:LocalBusiness"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "d1b69607-ef04-42a6-b910-15ee6a73f302",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Forsthaus 2, 17039 Neu Rhäse/ Wulkenzin",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Forsthaus 2",
-        "postalCode": "17039",
-        "addressLocality": "Rhäse/ Wulkenzin",
-        "@id": "1d19a24c-bea8-4bbe-aaae-6cd9d5cd003b"
-      },
-      "dc:slug": "forsthaus-2-17039-neu-rhaese-wulkenzin",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "1d19a24c-bea8-4bbe-aaae-d74c5e22649d",
-          "value": 36.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ]
-    },
-    {
-      "@id": "930cfb28-df95-44e7-9dc0-490ff0c7b0c0",
-      "@type": [
-        "Place",
-        "Organization",
-        "LocalBusiness",
-        "dcls:LocalBusiness"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "2f48d2f4-e730-4ce2-a8c6-5a8f08b1ae3f",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Forstamt Poggendorf",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Grimmener Straße 16",
-        "postalCode": "18516",
-        "addressLocality": "Süderholz",
-        "@id": "930cfb28-df95-44e7-9dc0-c14268c3295f",
-        "telephone": "038331 / 613 - 0",
-        "url": "https://www.wald-mv.de/landesforst-mv/struktur-und-organisation/forstaemter/poggendorf/"
-      },
-      "dc:slug": "forstamt-poggendorf-1",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "930cfb28-df95-44e7-9dc0-7ad7e32c4df9",
-          "value": 36.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ]
-    },
-    {
-      "@id": "f934719f-612f-415f-ad3d-babdff61e033",
-      "@type": [
-        "Place",
-        "Organization",
-        "LocalBusiness",
-        "dcls:LocalBusiness"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "1d22d305-4164-45df-b315-9e9545bc6395",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "604edb2e-c5d3-4803-9dc5-438a945558c9",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "f3867e41-e526-4dfa-a105-e04f61f87404",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Forstamt Mirow",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Rudolf-Breitscheid-Str. 26",
-        "postalCode": "17252",
-        "addressLocality": "Mirow",
-        "@id": "f934719f-612f-415f-ad3d-32f0676579ac",
-        "url": "https://www.wald-mv.de/"
-      },
-      "geo": {
-        "longitude": 12.8158,
-        "@id": "f934719f-612f-415f-ad3d-567c8b82001f",
-        "@type": "GeoCoordinates",
-        "latitude": 53.27914
-      },
-      "dc:slug": "forstamt-mirow-4",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "f934719f-612f-415f-ad3d-8965ec8a1d0a",
-          "value": 61.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ]
-    },
-    {
-      "@id": "8360f42c-9e2d-4df4-92ef-35298beec21d",
-      "@type": [
-        "CreativeWork",
-        "MediaObject",
-        "ImageObject",
-        "dcls:Bild"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "ca29fabd-20f2-4795-b2db-f608a1ad8d99",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "61c39157-5c7d-4852-a2d4-8db928edd177",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Waldmarkt_Plakat",
-      "contentUrl": "https://contenthub.tmv.de/asset/8360f42c-9e2d-4df4-92ef-35298beec21d/RC3heI9CGAhBCiZ4a29X0aQ-rSiyLmbILB89mWBONQQ/1794460166/default/plakat_waldmarkt.jpg",
-      "thumbnailUrl": "https://contenthub.tmv.de/asset/8360f42c-9e2d-4df4-92ef-35298beec21d/vzlS17-dNvX9OTuMR4_ejSeBmHDYxnV6wZ53nOWSbKw/1794460166/thumb/plakat_waldmarkt",
-      "sameAs": "https://imxplatform-cust-tmv.fsn1.your-objectstorage.com/media/TMV/waldmarkt_plakat.jpg",
-      "width": {
-        "@type": "QuantitativeValue",
-        "identifier": "width",
-        "name": "Breite",
-        "unitCode": "E37",
-        "unitText": "pixel",
-        "@id": "8360f42c-9e2d-4df4-92ef-df87ad48393d",
-        "value": 720.0
-      },
-      "height": {
-        "@type": "QuantitativeValue",
-        "identifier": "height",
-        "name": "Höhe",
-        "unitCode": "E37",
-        "unitText": "pixel",
-        "@id": "8360f42c-9e2d-4df4-92ef-811c69c917c0",
-        "value": 1040.0
-      },
-      "contentSize": 165500.0,
-      "fileFormat": "image/jpeg",
-      "uploadDate": "2026-11-11",
-      "copyrightHolder": [
-        {
-          "@id": "e23539ca-6200-45f0-82c7-a6fee80e29c7",
-          "@type": [
-            "Organization",
-            "dcls:Organization"
-          ]
-        }
-      ],
-      "mandatoryLicense": false,
-      "dc:webUrl": "https://contenthub.tmv.de/asset/8360f42c-9e2d-4df4-92ef-35298beec21d/_nWujrlqTcNzFKeZ_6XmaC0yha_TEzOMtilfL60u_ow/1794460166/web/plakat_waldmarkt",
-      "copyrightNotice": "(c) FoA Jägerhof",
-      "dc:slug": "waldmarkt_plakat",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "8360f42c-9e2d-4df4-92ef-06f198053f24",
-          "value": 67.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ]
-    },
-    {
-      "@id": "6359adb1-6992-48cb-ba02-7e07e55aeb1b",
-      "@type": [
-        "Place",
-        "Organization",
-        "LocalBusiness",
-        "dcls:LocalBusiness"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "57bf8c41-31ef-49a0-8808-39754f71e3fe",
           "@type": "skos:Concept"
         },
         {
@@ -4259,632 +3958,28 @@
       "name": "Landesforstanstalt M-V",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Forststraße 14",
-        "postalCode": "19079",
-        "addressLocality": "Jamel",
-        "@id": "6359adb1-6992-48cb-ba02-f64a7d5e7284"
-      },
-      "dc:slug": "landesforstanstalt-m-v-4",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "6359adb1-6992-48cb-ba02-4ddff6b11622",
-          "value": 36.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ]
-    },
-    {
-      "@id": "e9c7fedd-ce49-4cec-8c81-aaeaba34f358",
-      "@type": [
-        "Place",
-        "Organization",
-        "LocalBusiness",
-        "dcls:LocalBusiness"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "1d22d305-4164-45df-b315-9e9545bc6395",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "cab2729c-0f60-4bb0-84d9-0f9c2beadcf1",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "c7042e2d-8951-491a-8b5a-aacccde1b073",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "ecf13839-0e45-498d-abbf-93cc7b999a5d",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "06406c52-262f-47c7-8d1a-fd502a3dcb5d",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "655a9fd1-f382-458d-b419-4770889dc2b9",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "3b3c430c-ccb6-4d1d-a58b-0fea5e3a0a55",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "a5ed2593-9c1d-4f75-b324-89c5762eca0d",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "965d0a23-2008-403c-8100-f96b815fb18d",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "f3867e41-e526-4dfa-a105-e04f61f87404",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "f1fd4fe1-7ae1-4e81-aff7-40c3802e92c1",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "330e3837-6163-4748-9701-95d18e0c989c",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Mirower Holm",
-      "address": {
-        "@type": "PostalAddress",
-        "postalCode": "17252",
-        "addressLocality": "Mirow",
-        "@id": "e9c7fedd-ce49-4cec-8c81-22a722306ac7",
-        "telephone": "+49 (0)39833 27567",
-        "faxNumber": "+49 (0)39833 269962",
-        "email": "info@klein-seenplatte.de",
-        "url": "http://www.klein-seenplatte.de"
+        "streetAddress": "Fritz-Reuter Platz 9",
+        "postalCode": "17139",
+        "addressLocality": "Malchin",
+        "@id": "f6124d85-2413-443a-9837-acbc750538ba",
+        "telephone": "0173-3461221",
+        "email": "tomke.devries@lfoa-mv.de",
+        "url": "https://www.wald-mv.de"
       },
       "geo": {
-        "longitude": 12.805033092498775,
-        "@id": "e9c7fedd-ce49-4cec-8c81-462bced71374",
+        "longitude": 12.7546,
+        "@id": "f6124d85-2413-443a-9837-c83099e24109",
         "@type": "GeoCoordinates",
-        "latitude": 53.236196070634996
+        "latitude": 53.74088
       },
-      "dc:additionalInformation": [
-        {
-          "@id": "936fffe6-e5ad-467a-962c-638cde4f7448",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "e28ac312-92d6-4711-90df-a3fd93355c87",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "71cca54a-9ec6-438a-9fc6-86cae8d9be7c",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "0bd7c0bd-3276-42c5-beb3-6353ca8f0fc1",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "33fe1fbb-c4de-471a-ac91-774ffed76a75",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "a260d763-cfc2-4ef4-9ac2-4416eb9ba223",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "b77cef49-20d4-4d3c-ba45-feb06536b58a",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "032188b9-1c35-4fa4-8bf6-14cac62a9a52",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        }
-      ],
-      "dc:slug": "mirower-holm",
+      "dc:slug": "landesforstanstalt-m-v",
       "dc:contentScore": [
         {
           "@type": "PropertyValue",
           "identifier": "internalContentScore",
           "name": "Interner Content Score",
-          "@id": "e9c7fedd-ce49-4cec-8c81-9932a9df0e61",
+          "@id": "f6124d85-2413-443a-9837-1729feea5c1c",
           "value": 61.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ],
-      "imxContentScore": 33.0
-    },
-    {
-      "@id": "e62ba779-b72e-429f-bf6a-3c9e4f3b4666",
-      "@type": [
-        "Place",
-        "Organization",
-        "LocalBusiness",
-        "dcls:LocalBusiness"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "f6c5b041-4580-4677-841d-218b7990b1bd",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "61c39157-5c7d-4852-a2d4-8db928edd177",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "46b37871-6e89-40a5-a011-61ff1d1cd58e",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "277e01ff-efee-43d5-82b0-d35c2bf93198",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "c8ce7298-bddc-48c1-86e7-749a120aa213",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "eb26c883-950b-46c4-a504-4e54c41431bd",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "297a5f1a-a177-46c2-84c2-cde48b62ceb1",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "d86c31b2-41de-4cbf-a6ba-50719d00f62f",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "c6750383-0514-44bf-a1e5-fc56aaa96c83",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Forstamt Jägerhof",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Hainstraße 5",
-        "postalCode": "17493",
-        "addressLocality": "Greifswald-Eldena",
-        "@id": "e62ba779-b72e-429f-bf6a-b4d3d73fdff9",
-        "telephone": "03834836100",
-        "email": "jaegerhof@lfoa-mv.de",
-        "url": "https://www.wald-mv.de/landesforst-mv/struktur-und-organisation/forstaemter/jaegerhof/"
-      },
-      "geo": {
-        "longitude": 13.44983,
-        "@id": "e62ba779-b72e-429f-bf6a-d05f3bd8a64a",
-        "@type": "GeoCoordinates",
-        "latitude": 54.08813
-      },
-      "dc:slug": "forstamt-jaegerhof-2",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "e62ba779-b72e-429f-bf6a-0f465cd0bb5f",
-          "value": 61.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ]
-    },
-    {
-      "@id": "7d3f3246-200a-45ef-927b-e9c80bc601d0",
-      "@type": [
-        "Place",
-        "Organization",
-        "LocalBusiness",
-        "dcls:LocalBusiness"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "fb269430-2a8d-4822-aa47-ed04a3265b73",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "2bb42024-aa46-45bc-913f-d39270d46e06",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "f3867e41-e526-4dfa-a105-e04f61f87404",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "f3554556-8fb3-4b5b-9a8f-11f962b69702",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Streckenplatz Satow Hütte",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Dorfstr.",
-        "postalCode": "17213",
-        "addressLocality": "Fünfseen OT Satow",
-        "@id": "7d3f3246-200a-45ef-927b-618593c2984f"
-      },
-      "geo": {
-        "longitude": 12.38832,
-        "@id": "7d3f3246-200a-45ef-927b-05097f25e1fc",
-        "@type": "GeoCoordinates",
-        "latitude": 53.42522
-      },
-      "dc:slug": "streckenplatz-satow-huette",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "7d3f3246-200a-45ef-927b-da10182dfce9",
-          "value": 61.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ]
-    },
-    {
-      "@id": "80a60aef-36a0-4bd3-bdb5-e1ea09f8700f",
-      "@type": [
-        "Place",
-        "Organization",
-        "LocalBusiness",
-        "dcls:LocalBusiness"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "9c211559-cb43-4382-93fa-dbd227151c7d",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "efdff111-78db-4d81-a078-586079e935c5",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "c7042e2d-8951-491a-8b5a-aacccde1b073",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "5c5034ee-2336-498a-a25e-a22ab1a989bb",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "06406c52-262f-47c7-8d1a-fd502a3dcb5d",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "b02c4782-2552-4dfd-babc-f300fea7837b",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "0acd6677-bf5c-4a1a-86b5-4dea336128a3",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "d8771bd8-0171-4785-a4c1-c8be67eeaba5",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "a5ed2593-9c1d-4f75-b324-89c5762eca0d",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "46b37871-6e89-40a5-a011-61ff1d1cd58e",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "d86c31b2-41de-4cbf-a6ba-50719d00f62f",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "27e4ab2a-79ad-4d62-9d24-bfaea4cbe3e8",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Forstamt Bad Doberan",
-      "image": [
-        {
-          "@id": "f571d0bf-fc8f-4d66-bcff-0c3f7c0763eb",
-          "@type": [
-            "CreativeWork",
-            "MediaObject",
-            "ImageObject",
-            "dcls:Bild"
-          ]
-        }
-      ],
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Neue Reihe 46",
-        "postalCode": "18209",
-        "addressLocality": "Bad Doberan",
-        "@id": "80a60aef-36a0-4bd3-bdb5-69a791fce990",
-        "telephone": "+49 38203 22630"
-      },
-      "geo": {
-        "longitude": 11.893000000000029,
-        "@id": "80a60aef-36a0-4bd3-bdb5-0d2b7d1b9023",
-        "@type": "GeoCoordinates",
-        "latitude": 54.10878
-      },
-      "dc:additionalInformation": [
-        {
-          "@id": "f0e1cea4-f854-4813-82f6-633c7ea53982",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "8e449fed-9f28-4484-b8ab-74e5d07553f3",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "d3f9b5a9-b1bc-4649-89b5-b09b6891adef",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "1e9feb5d-0cc9-46ca-8daa-d18a01f9b37d",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "441cd7fe-b941-42b0-bc61-e3bb8abe3b06",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "a452b9f7-e57e-4289-8a72-ceaaf6ada726",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "c468fb74-c03c-40be-95d3-788fa9960635",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        },
-        {
-          "@id": "608a392c-bd1c-4e01-8f05-4b42febca5e3",
-          "@type": [
-            "CreativeWork",
-            "dcls:Ergänzende Information"
-          ]
-        }
-      ],
-      "dc:slug": "forstamt-bad-doberan",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "80a60aef-36a0-4bd3-bdb5-d2321a138d36",
-          "value": 61.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ],
-      "imxContentScore": 60.55
-    },
-    {
-      "@id": "770ce6d3-956f-48f4-98c1-84b76ab4157b",
-      "@type": [
-        "CreativeWork",
-        "MediaObject",
-        "ImageObject",
-        "dcls:Bild"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "ca29fabd-20f2-4795-b2db-f608a1ad8d99",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "f10ca8c4-85e2-4e4a-a09b-440fc97a7b10",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Forstamt Dargun",
-      "contentUrl": "https://contenthub.tmv.de/asset/770ce6d3-956f-48f4-98c1-84b76ab4157b/2PNuKGWAtgd_YTHcGWCfXJ82NnQPpNvxXrbXkBzXZVM/1794318124/default/darguwinter1.jpg",
-      "thumbnailUrl": "https://contenthub.tmv.de/asset/770ce6d3-956f-48f4-98c1-84b76ab4157b/HWl7mAoqkK30bYwYL8hzWY3Wz5tkFBNBzV9oIQI1P68/1794318124/thumb/darguwinter1",
-      "sameAs": "https://imxplatform-cust-tmv.fsn1.your-objectstorage.com/media/TMV/darguwinter1_1.jpg",
-      "width": {
-        "@type": "QuantitativeValue",
-        "identifier": "width",
-        "name": "Breite",
-        "unitCode": "E37",
-        "unitText": "pixel",
-        "@id": "770ce6d3-956f-48f4-98c1-6e194c12ee5b",
-        "value": 2720.0
-      },
-      "height": {
-        "@type": "QuantitativeValue",
-        "identifier": "height",
-        "name": "Höhe",
-        "unitCode": "E37",
-        "unitText": "pixel",
-        "@id": "770ce6d3-956f-48f4-98c1-30828893c0a6",
-        "value": 2041.0
-      },
-      "contentSize": 839402.0,
-      "fileFormat": "image/jpeg",
-      "uploadDate": "2026-11-10",
-      "copyrightHolder": [
-        {
-          "@id": "c1794837-c8b3-4382-9605-85bf5874422d",
-          "@type": [
-            "Organization",
-            "dcls:Organization"
-          ]
-        }
-      ],
-      "mandatoryLicense": false,
-      "dc:webUrl": "https://contenthub.tmv.de/asset/770ce6d3-956f-48f4-98c1-84b76ab4157b/S7btCR0B6_df_buhN0Pk3G3U_aaRYgY1d5AF28MZ7_E/1794318124/web/darguwinter1",
-      "copyrightNotice": "(c) eigenes Foto",
-      "dc:slug": "forstamt-dargun",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "770ce6d3-956f-48f4-98c1-b76f795fe842",
-          "value": 67.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ]
-    },
-    {
-      "@id": "3fdacb77-ba8c-4bb2-ba02-d24d471a9ded",
-      "@type": [
-        "Place",
-        "Organization",
-        "LocalBusiness",
-        "dcls:LocalBusiness"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "85a42268-9c55-4ad1-981b-6c97e9831e68",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Weihnachtsmarkt",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Karl-Marx-Straße 20",
-        "postalCode": "19294",
-        "addressLocality": "Kaliß",
-        "@id": "3fdacb77-ba8c-4bb2-ba02-5a00df1e0472"
-      },
-      "dc:slug": "weihnachtsmarkt-5",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "3fdacb77-ba8c-4bb2-ba02-e19554f160d4",
-          "value": 36.0,
           "minValue": 0,
           "maxValue": 100
         }
@@ -4955,7 +4050,7 @@
       ]
     },
     {
-      "@id": "8c173963-9ad9-460a-bad4-187af90c5ed6",
+      "@id": "3fdacb77-ba8c-4bb2-ba02-d24d471a9ded",
       "@type": [
         "Place",
         "Organization",
@@ -4971,492 +4066,15 @@
       ],
       "dc:classification": [
         {
-          "@id": "01992631-cb42-4f86-a360-c634fd4c2d4a",
+          "@id": "27f9127f-0274-48fe-b17f-20d185cbe544",
           "@type": "skos:Concept"
         },
         {
-          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Forstamt Gädebehn",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Rönkenhofer Weg 2",
-        "postalCode": "19089",
-        "addressLocality": "Gädebehn",
-        "@id": "8c173963-9ad9-460a-bad4-90376108c749",
-        "url": "https://www.wald-mv.de/landesforst-mv/struktur-und-organisation/forstaemter/gaedebehn/"
-      },
-      "dc:slug": "forstamt-gaedebehn",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "8c173963-9ad9-460a-bad4-2ba2eae7a3ef",
-          "value": 36.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ]
-    },
-    {
-      "@id": "6dd0a5fc-7787-4ce4-b206-0533c25c3f01",
-      "@type": [
-        "CreativeWork",
-        "MediaObject",
-        "ImageObject",
-        "dcls:Bild"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "ca29fabd-20f2-4795-b2db-f608a1ad8d99",
+          "@id": "85a42268-9c55-4ad1-981b-6c97e9831e68",
           "@type": "skos:Concept"
         },
         {
-          "@id": "90179a8f-2b8f-461a-a6d7-04045cffda21",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "b18c7868-3cb2-4bd2-88a1-7415e8c17a84",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "5eb3ea7b-8d60-4df9-a952-a9be34dadb3b",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Plakat_2026_Weihnachtsbaumverkauf",
-      "contentUrl": "https://contenthub.tmv.de/asset/6dd0a5fc-7787-4ce4-b206-0533c25c3f01/QA6pRESSZGIrA0vb4h9s6Q4CtVXuvEkdzvMxpzze9OM/1794460176/default/affiche_2026_verkoop_van_kerstbomen.jpg",
-      "thumbnailUrl": "https://contenthub.tmv.de/asset/6dd0a5fc-7787-4ce4-b206-0533c25c3f01/bjQiLtNzADlm11pbnDTVM07OpMHBdsknhoSfWXBbOQs/1794460176/thumb/affiche_2026_verkoop_van_kerstbomen",
-      "sameAs": "https://imxplatform-cust-tmv.fsn1.your-objectstorage.com/media/https%3A/imxplatform-cust-tmv.fsn1.your-objectstorage.com/media/TMV/plakat_2026_weihnachtsbaumverkauf_2.jpg",
-      "fileFormat": "image/jpeg",
-      "uploadDate": "2026-11-12",
-      "author": [
-        {
-          "@id": "5888910d-513e-4f26-9ba2-2625c5466e0b",
-          "@type": [
-            "Organization",
-            "dcls:Organization"
-          ]
-        }
-      ],
-      "copyrightHolder": [
-        {
-          "@id": "5888910d-513e-4f26-9ba2-2625c5466e0b",
-          "@type": [
-            "Organization",
-            "dcls:Organization"
-          ]
-        }
-      ],
-      "mandatoryLicense": false,
-      "dc:webUrl": "https://contenthub.tmv.de/asset/6dd0a5fc-7787-4ce4-b206-0533c25c3f01/dKYwLRb1wsRrCVOZ3LrUVv1WirsE2ryk4VZ5XLtAbfg/1794460176/web/affiche_2026_verkoop_van_kerstbomen",
-      "copyrightNotice": "(c) Forstamt Bad Doberan / Forstamt Bad Doberan",
-      "dc:slug": "plakat_2026_weihnachtsbaumverkauf",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "6dd0a5fc-7787-4ce4-b206-36ebd1b7c238",
-          "value": 67.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ]
-    },
-    {
-      "@id": "bb3b1c4f-45ff-4320-a661-afd7e54e53f9",
-      "@type": [
-        "Place",
-        "Organization",
-        "LocalBusiness",
-        "dcls:LocalBusiness"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "d1b69607-ef04-42a6-b910-15ee6a73f302",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Hauptstraße 19, 17099 Galenbeck, OT Lübbersdorf",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Hauptstraße 19",
-        "postalCode": "17099",
-        "addressLocality": "Galenbeck, OT Lübbersdorf",
-        "@id": "bb3b1c4f-45ff-4320-a661-279a7d4aca66"
-      },
-      "dc:slug": "hauptstrasse-19-17099-galenbeck-ot-luebbersdorf",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "bb3b1c4f-45ff-4320-a661-9c0ff6a5aec0",
-          "value": 36.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ]
-    },
-    {
-      "@id": "eb619c18-c3e3-4b02-bebd-150e091704cc",
-      "@type": [
-        "Place",
-        "Organization",
-        "LocalBusiness",
-        "dcls:LocalBusiness"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "937ee358-623a-4fef-a4be-f8813c61b70f",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Weihnachtsmarkt auf dem Forsthof",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Anklamer Straße 10",
-        "postalCode": "17358",
-        "addressLocality": "Torgelow",
-        "@id": "eb619c18-c3e3-4b02-bebd-9d4391139d53"
-      },
-      "dc:slug": "weihnachtsmarkt-auf-dem-forsthof",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "eb619c18-c3e3-4b02-bebd-26d61afcf9f5",
-          "value": 36.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ]
-    },
-    {
-      "@id": "2243991f-cb41-4a8d-a31c-93dce0ce4b73",
-      "@type": [
-        "Place",
-        "Organization",
-        "LocalBusiness",
-        "dcls:LocalBusiness"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "7f2bef2a-2c5d-4231-bfa5-9fbe6d6ecc92",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "cab2729c-0f60-4bb0-84d9-0f9c2beadcf1",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "f3867e41-e526-4dfa-a105-e04f61f87404",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "0aff2477-f560-469f-a280-1e370f3921c9",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Landesforst Mecklenburg-Vorpommern",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Försterei 1",
-        "postalCode": "17255",
-        "addressLocality": "Priepert",
-        "@id": "2243991f-cb41-4a8d-a31c-1b9178cad2ec",
-        "telephone": "0173 / 3010679",
-        "email": "heike.roth@lfoa-mv.de",
-        "url": "http://www.wald-mv.de"
-      },
-      "geo": {
-        "longitude": 13.0873,
-        "@id": "2243991f-cb41-4a8d-a31c-7f1d942dab5f",
-        "@type": "GeoCoordinates",
-        "latitude": 53.2266
-      },
-      "dc:slug": "landesforst-mecklenburg-vorpommern",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "2243991f-cb41-4a8d-a31c-a004f325b64a",
-          "value": 61.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ]
-    },
-    {
-      "@id": "1383ed25-dd0a-456d-b205-b0feeb205163",
-      "@type": [
-        "Place",
-        "Organization",
-        "LocalBusiness",
-        "dcls:LocalBusiness"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "2bb42024-aa46-45bc-913f-d39270d46e06",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Landesforst M-V Forstamt Wredenhagen",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Dorfstr. 60",
-        "postalCode": "17213",
-        "addressLocality": "Fünfseen OT Satow",
-        "@id": "1383ed25-dd0a-456d-b205-38b37324c8fc",
-        "telephone": "03992479516"
-      },
-      "dc:slug": "landesforst-m-v-forstamt-wredenhagen",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "1383ed25-dd0a-456d-b205-8326f8cbac5a",
-          "value": 36.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ]
-    },
-    {
-      "@id": "f6124d85-2413-443a-9837-24f1ed01a125",
-      "@type": [
-        "Place",
-        "Organization",
-        "LocalBusiness",
-        "dcls:LocalBusiness"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "b17463be-09cc-499b-adac-490775f1514e",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "f8b6493a-be80-4094-bde6-29269acfe53c",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "f3867e41-e526-4dfa-a105-e04f61f87404",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Landesforstanstalt M-V",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Fritz-Reuter Platz 9",
-        "postalCode": "17139",
-        "addressLocality": "Malchin",
-        "@id": "f6124d85-2413-443a-9837-acbc750538ba",
-        "telephone": "0173-3461221",
-        "email": "tomke.devries@lfoa-mv.de",
-        "url": "https://www.wald-mv.de"
-      },
-      "geo": {
-        "longitude": 12.7546,
-        "@id": "f6124d85-2413-443a-9837-c83099e24109",
-        "@type": "GeoCoordinates",
-        "latitude": 53.74088
-      },
-      "dc:slug": "landesforstanstalt-m-v",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "f6124d85-2413-443a-9837-1729feea5c1c",
-          "value": 61.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ]
-    },
-    {
-      "@id": "efa03e65-c050-4f3a-9be5-509d32aef16d",
-      "@type": [
-        "CreativeWork",
-        "MediaObject",
-        "ImageObject",
-        "dcls:Bild"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "ca29fabd-20f2-4795-b2db-f608a1ad8d99",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "f64cb33a-d8da-41b5-a556-d13f35b687b7",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Weihnachtsbaumverkauf",
-      "contentUrl": "https://contenthub.tmv.de/asset/efa03e65-c050-4f3a-9be5-509d32aef16d/jTILdbcGs_6UYbbPTO6fvv9vAIqhyH_ZZF468ab-hhw/1794231357/default/verkoop_van_kerstbomen.jpg",
-      "thumbnailUrl": "https://contenthub.tmv.de/asset/efa03e65-c050-4f3a-9be5-509d32aef16d/Y1NSFTxpATYICRFkNDmWDL8DFFfJV8iDYc-IH72i47c/1794231357/thumb/verkoop_van_kerstbomen",
-      "sameAs": "https://imxplatform-cust-tmv.fsn1.your-objectstorage.com/media/TMV/weihnachtsbaumverkauf.jpg",
-      "width": {
-        "@type": "QuantitativeValue",
-        "identifier": "width",
-        "name": "Breite",
-        "unitCode": "E37",
-        "unitText": "pixel",
-        "@id": "efa03e65-c050-4f3a-9be5-ba3314080a4d",
-        "value": 1488.0
-      },
-      "height": {
-        "@type": "QuantitativeValue",
-        "identifier": "height",
-        "name": "Höhe",
-        "unitCode": "E37",
-        "unitText": "pixel",
-        "@id": "efa03e65-c050-4f3a-9be5-e4a8d08924b0",
-        "value": 1534.0
-      },
-      "contentSize": 1005479.0,
-      "fileFormat": "image/jpeg",
-      "uploadDate": "2026-11-06",
-      "author": [
-        {
-          "@id": "24f5cdfa-6b29-47cc-a069-65c46276f432",
-          "@type": [
-            "Organization",
-            "dcls:Organization"
-          ]
-        }
-      ],
-      "copyrightHolder": [
-        {
-          "@id": "125388ce-5ced-495a-8e2c-5bc1a7398569",
-          "@type": [
-            "Organization",
-            "dcls:Organization"
-          ]
-        }
-      ],
-      "mandatoryLicense": false,
-      "dc:webUrl": "https://contenthub.tmv.de/asset/efa03e65-c050-4f3a-9be5-509d32aef16d/6hxPmvOqalXYVxecpwFkkV1c0RzmxpV8CvJfeUqTlBA/1794231357/web/verkoop_van_kerstbomen",
-      "copyrightNotice": "(c) Forstamt / privat",
-      "dc:slug": "weihnachtsbaumverkauf-1",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "efa03e65-c050-4f3a-9be5-634521450c54",
-          "value": 67.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ]
-    },
-    {
-      "@id": "8961d8a3-3b67-4779-810c-a0089d940b98",
-      "@type": [
-        "Place",
-        "Organization",
-        "LocalBusiness",
-        "dcls:LocalBusiness"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "29312cd2-cafc-4218-96b2-8bbc14eff1cb",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "01992631-cb42-4f86-a360-c634fd4c2d4a",
+          "@id": "89e8f8f8-a7f4-46b8-9422-c89115c31528",
           "@type": "skos:Concept"
         },
         {
@@ -5468,76 +4086,28 @@
           "@type": "skos:Concept"
         }
       ],
-      "name": "Forstbaumschule Gädebehn",
+      "name": "Forstamt Kaliß",
       "address": {
         "@type": "PostalAddress",
-        "postalCode": "19089",
-        "addressLocality": "Kobande",
-        "@id": "8961d8a3-3b67-4779-810c-284505909207",
-        "url": "https://www.wald-mv.de/walderlebnis/waldweihnachten/"
+        "streetAddress": "Karl-Marx-Straße 20",
+        "postalCode": "19294",
+        "addressLocality": "Kaliß",
+        "@id": "3fdacb77-ba8c-4bb2-ba02-5a00df1e0472"
       },
       "geo": {
-        "longitude": 11.66398412309629,
-        "@id": "8961d8a3-3b67-4779-810c-4cc9e977ebb4",
+        "longitude": 11.32497,
+        "@id": "3fdacb77-ba8c-4bb2-ba02-3e8c33f97dc1",
         "@type": "GeoCoordinates",
-        "latitude": 53.615876345594494
+        "latitude": 53.15638
       },
-      "dc:slug": "forstbaumschule-gaedebehn",
+      "dc:slug": "weihnachtsmarkt-5",
       "dc:contentScore": [
         {
           "@type": "PropertyValue",
           "identifier": "internalContentScore",
           "name": "Interner Content Score",
-          "@id": "8961d8a3-3b67-4779-810c-93d08e7ff6a1",
+          "@id": "3fdacb77-ba8c-4bb2-ba02-e19554f160d4",
           "value": 61.0,
-          "minValue": 0,
-          "maxValue": 100
-        }
-      ]
-    },
-    {
-      "@id": "8b06e51a-744d-4326-95b2-d0712bfefa28",
-      "@type": [
-        "Place",
-        "Organization",
-        "LocalBusiness",
-        "dcls:LocalBusiness"
-      ],
-      "dc:multilingual": true,
-      "dc:translation": [
-        "de",
-        "en",
-        "pl",
-        "nl"
-      ],
-      "dc:classification": [
-        {
-          "@id": "7f52ce84-9303-4612-a087-7a8fdce75a97",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
-          "@type": "skos:Concept"
-        }
-      ],
-      "name": "Weihnachtsbaumverkauf an der Revierförsterei Carlshof",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Carlshof 1",
-        "postalCode": "17237",
-        "addressLocality": "Blumenholz",
-        "@id": "8b06e51a-744d-4326-95b2-583cb3fa63b7",
-        "telephone": "03981 421060",
-        "url": "https://www.wald-mv.de"
-      },
-      "dc:slug": "weihnachtsbaumverkauf-an-der-revierfoersterei-carlshof",
-      "dc:contentScore": [
-        {
-          "@type": "PropertyValue",
-          "identifier": "internalContentScore",
-          "name": "Interner Content Score",
-          "@id": "8b06e51a-744d-4326-95b2-e3a938150711",
-          "value": 36.0,
           "minValue": 0,
           "maxValue": 100
         }
@@ -5722,7 +4292,7 @@
       "imxContentScore": 69.55
     },
     {
-      "@id": "c0668942-b42e-4499-a94e-af3e20232cbe",
+      "@id": "f934719f-612f-415f-ad3d-babdff61e033",
       "@type": [
         "Place",
         "Organization",
@@ -5738,19 +4308,15 @@
       ],
       "dc:classification": [
         {
-          "@id": "fab5066f-a5b7-48b5-a180-2bba465c42e5",
+          "@id": "1d22d305-4164-45df-b315-9e9545bc6395",
           "@type": "skos:Concept"
         },
         {
-          "@id": "f64cb33a-d8da-41b5-a556-d13f35b687b7",
+          "@id": "604edb2e-c5d3-4803-9dc5-438a945558c9",
           "@type": "skos:Concept"
         },
         {
           "@id": "f3867e41-e526-4dfa-a105-e04f61f87404",
-          "@type": "skos:Concept"
-        },
-        {
-          "@id": "8d461de3-ec8c-4b5c-b9af-13af36ae25f7",
           "@type": "skos:Concept"
         },
         {
@@ -5762,29 +4328,28 @@
           "@type": "skos:Concept"
         }
       ],
-      "name": "Forstamt Lüttenhagen",
+      "name": "Forstamt Mirow",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Forsthof 1",
-        "postalCode": "17258",
-        "addressLocality": "Feldberger Seenlandschaft",
-        "@id": "c0668942-b42e-4499-a94e-2773b827b521",
-        "telephone": "+49 39831 59120",
-        "url": "https://www.wald-mv.de"
+        "streetAddress": "Rudolf-Breitscheid-Str. 26",
+        "postalCode": "17252",
+        "addressLocality": "Mirow",
+        "@id": "f934719f-612f-415f-ad3d-32f0676579ac",
+        "url": "https://www.wald-mv.de/"
       },
       "geo": {
-        "longitude": 13.37832,
-        "@id": "c0668942-b42e-4499-a94e-43ff54c0cc92",
+        "longitude": 12.8158,
+        "@id": "f934719f-612f-415f-ad3d-567c8b82001f",
         "@type": "GeoCoordinates",
-        "latitude": 53.336
+        "latitude": 53.27914
       },
-      "dc:slug": "forstamt-luettenhagen",
+      "dc:slug": "forstamt-mirow-4",
       "dc:contentScore": [
         {
           "@type": "PropertyValue",
           "identifier": "internalContentScore",
           "name": "Interner Content Score",
-          "@id": "c0668942-b42e-4499-a94e-9ce633c8d187",
+          "@id": "f934719f-612f-415f-ad3d-8965ec8a1d0a",
           "value": 61.0,
           "minValue": 0,
           "maxValue": 100
@@ -5792,7 +4357,7 @@
       ]
     },
     {
-      "@id": "46cd81d6-7734-4a4c-85b1-610a7b70ad17",
+      "@id": "930cfb28-df95-44e7-9dc0-490ff0c7b0c0",
       "@type": [
         "Place",
         "Organization",
@@ -5822,17 +4387,17 @@
         "streetAddress": "Grimmener Straße 16",
         "postalCode": "18516",
         "addressLocality": "Süderholz",
-        "@id": "46cd81d6-7734-4a4c-85b1-e947e3743488",
+        "@id": "930cfb28-df95-44e7-9dc0-c14268c3295f",
         "telephone": "038331 / 613 - 0",
         "url": "https://www.wald-mv.de/landesforst-mv/struktur-und-organisation/forstaemter/poggendorf/"
       },
-      "dc:slug": "forstamt-poggendorf",
+      "dc:slug": "forstamt-poggendorf-1",
       "dc:contentScore": [
         {
           "@type": "PropertyValue",
           "identifier": "internalContentScore",
           "name": "Interner Content Score",
-          "@id": "46cd81d6-7734-4a4c-85b1-52d2689b502e",
+          "@id": "930cfb28-df95-44e7-9dc0-7ad7e32c4df9",
           "value": 36.0,
           "minValue": 0,
           "maxValue": 100
@@ -5840,7 +4405,7 @@
       ]
     },
     {
-      "@id": "5eab413f-adbf-45f5-b029-6f86f38399be",
+      "@id": "8eb00e32-3548-4fbc-a5d1-6f9ae775e7b6",
       "@type": [
         "Place",
         "Organization",
@@ -5856,7 +4421,19 @@
       ],
       "dc:classification": [
         {
-          "@id": "57bf8c41-31ef-49a0-8808-39754f71e3fe",
+          "@id": "64aacd97-d2e8-4a1a-b5e7-1f64ed35be8d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d1b69607-ef04-42a6-b910-15ee6a73f302",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f3867e41-e526-4dfa-a105-e04f61f87404",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
           "@type": "skos:Concept"
         },
         {
@@ -5864,22 +4441,254 @@
           "@type": "skos:Concept"
         }
       ],
-      "name": "Weihnachtsbaumverkauf 2026",
+      "name": "Forstamt Neubrandenburg",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Schloßallee 9",
-        "postalCode": "19306",
-        "addressLocality": "Neustadt-Glewe OT Friedrichsmoor",
-        "@id": "5eab413f-adbf-45f5-b029-e7cb6b870021"
+        "streetAddress": "Oelmühlenstraße 3",
+        "postalCode": "17033",
+        "addressLocality": "Neubrandenburg",
+        "@id": "8eb00e32-3548-4fbc-a5d1-e7d77f717e29"
       },
-      "dc:slug": "weihnachtsbaumverkauf-2026",
+      "geo": {
+        "longitude": 13.23629,
+        "@id": "8eb00e32-3548-4fbc-a5d1-835b9396079a",
+        "@type": "GeoCoordinates",
+        "latitude": 53.55054
+      },
+      "dc:slug": "forstamt-neubrandenburg",
       "dc:contentScore": [
         {
           "@type": "PropertyValue",
           "identifier": "internalContentScore",
           "name": "Interner Content Score",
-          "@id": "5eab413f-adbf-45f5-b029-5c5ee0686487",
-          "value": 36.0,
+          "@id": "8eb00e32-3548-4fbc-a5d1-5c42f49e1a8f",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "e9c7fedd-ce49-4cec-8c81-aaeaba34f358",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "1d22d305-4164-45df-b315-9e9545bc6395",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "cab2729c-0f60-4bb0-84d9-0f9c2beadcf1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "c7042e2d-8951-491a-8b5a-aacccde1b073",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ecf13839-0e45-498d-abbf-93cc7b999a5d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "06406c52-262f-47c7-8d1a-fd502a3dcb5d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "655a9fd1-f382-458d-b419-4770889dc2b9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3b3c430c-ccb6-4d1d-a58b-0fea5e3a0a55",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "a5ed2593-9c1d-4f75-b324-89c5762eca0d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "965d0a23-2008-403c-8100-f96b815fb18d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f3867e41-e526-4dfa-a105-e04f61f87404",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f1fd4fe1-7ae1-4e81-aff7-40c3802e92c1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "330e3837-6163-4748-9701-95d18e0c989c",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Mirower Holm",
+      "address": {
+        "@type": "PostalAddress",
+        "postalCode": "17252",
+        "addressLocality": "Mirow",
+        "@id": "e9c7fedd-ce49-4cec-8c81-22a722306ac7",
+        "telephone": "+49 (0)39833 27567",
+        "faxNumber": "+49 (0)39833 269962",
+        "email": "info@klein-seenplatte.de",
+        "url": "http://www.klein-seenplatte.de"
+      },
+      "geo": {
+        "longitude": 12.805033092498775,
+        "@id": "e9c7fedd-ce49-4cec-8c81-462bced71374",
+        "@type": "GeoCoordinates",
+        "latitude": 53.236196070634996
+      },
+      "dc:additionalInformation": [
+        {
+          "@id": "936fffe6-e5ad-467a-962c-638cde4f7448",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "e28ac312-92d6-4711-90df-a3fd93355c87",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "71cca54a-9ec6-438a-9fc6-86cae8d9be7c",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "0bd7c0bd-3276-42c5-beb3-6353ca8f0fc1",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "33fe1fbb-c4de-471a-ac91-774ffed76a75",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "a260d763-cfc2-4ef4-9ac2-4416eb9ba223",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "b77cef49-20d4-4d3c-ba45-feb06536b58a",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "032188b9-1c35-4fa4-8bf6-14cac62a9a52",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "dc:slug": "mirower-holm",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "e9c7fedd-ce49-4cec-8c81-9932a9df0e61",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ],
+      "imxContentScore": 33.0
+    },
+    {
+      "@id": "8961d8a3-3b67-4779-810c-a0089d940b98",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "29312cd2-cafc-4218-96b2-8bbc14eff1cb",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "01992631-cb42-4f86-a360-c634fd4c2d4a",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bdf4a6cd-5909-49f7-a505-c23921a9d6e5",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Forstbaumschule Gädebehn",
+      "address": {
+        "@type": "PostalAddress",
+        "postalCode": "19089",
+        "addressLocality": "Kobande",
+        "@id": "8961d8a3-3b67-4779-810c-284505909207",
+        "url": "https://www.wald-mv.de/walderlebnis/waldweihnachten/"
+      },
+      "geo": {
+        "longitude": 11.66398412309629,
+        "@id": "8961d8a3-3b67-4779-810c-4cc9e977ebb4",
+        "@type": "GeoCoordinates",
+        "latitude": 53.615876345594494
+      },
+      "dc:slug": "forstbaumschule-gaedebehn",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "8961d8a3-3b67-4779-810c-93d08e7ff6a1",
+          "value": 61.0,
           "minValue": 0,
           "maxValue": 100
         }
@@ -5902,7 +4711,27 @@
       ],
       "dc:classification": [
         {
+          "@id": "bdf5799e-b8ff-451a-aa5e-d3a4014ec18b",
+          "@type": "skos:Concept"
+        },
+        {
           "@id": "dd4c2dcc-0596-4840-b93a-a3c2d943ee7f",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "eb26c883-950b-46c4-a504-4e54c41431bd",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ea438f41-0678-43af-ae88-dc2dec2c4f7a",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "74979a36-b04a-4609-b5cc-b6c2432d494c",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "c6750383-0514-44bf-a1e5-fc56aaa96c83",
           "@type": "skos:Concept"
         },
         {
@@ -5917,8 +4746,14 @@
         "postalCode": "17379",
         "addressLocality": "Rothemühl",
         "@id": "ba5a767b-7846-4d59-b1d3-41c34294c2e4",
-        "telephone": "039772/2650",
+        "telephone": "+49 39772 2650",
         "url": "https://www.wald-mv.de/landesforst-mv/struktur-und-organisation/forstaemter/rothemuehl/"
+      },
+      "geo": {
+        "longitude": 13.8285,
+        "@id": "ba5a767b-7846-4d59-b1d3-254fae73bb57",
+        "@type": "GeoCoordinates",
+        "latitude": 53.58997
       },
       "dc:slug": "forstamt-rothemuehl-2",
       "dc:contentScore": [
@@ -5927,7 +4762,458 @@
           "identifier": "internalContentScore",
           "name": "Interner Content Score",
           "@id": "ba5a767b-7846-4d59-b1d3-fa56c97ba642",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "8c173963-9ad9-460a-bad4-187af90c5ed6",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "01992631-cb42-4f86-a360-c634fd4c2d4a",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Forstamt Gädebehn",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rönkenhofer Weg 2",
+        "postalCode": "19089",
+        "addressLocality": "Gädebehn",
+        "@id": "8c173963-9ad9-460a-bad4-90376108c749",
+        "url": "https://www.wald-mv.de/landesforst-mv/struktur-und-organisation/forstaemter/gaedebehn/"
+      },
+      "dc:slug": "forstamt-gaedebehn",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "8c173963-9ad9-460a-bad4-2ba2eae7a3ef",
           "value": 36.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "1383ed25-dd0a-456d-b205-b0feeb205163",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "2bb42024-aa46-45bc-913f-d39270d46e06",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Landesforst M-V Forstamt Wredenhagen",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Dorfstr. 60",
+        "postalCode": "17213",
+        "addressLocality": "Fünfseen OT Satow",
+        "@id": "1383ed25-dd0a-456d-b205-38b37324c8fc",
+        "telephone": "03992479516"
+      },
+      "dc:slug": "landesforst-m-v-forstamt-wredenhagen",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "1383ed25-dd0a-456d-b205-8326f8cbac5a",
+          "value": 36.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "e5038184-0faf-4032-bd14-a1117a95e792",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "1d22d305-4164-45df-b315-9e9545bc6395",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "cab2729c-0f60-4bb0-84d9-0f9c2beadcf1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f3867e41-e526-4dfa-a105-e04f61f87404",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Stadt Mirow",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rudolf-Breitscheid-Straße 24",
+        "postalCode": "17252",
+        "addressLocality": "Mirow",
+        "@id": "e5038184-0faf-4032-bd14-295ce2917e0d",
+        "telephone": "039833 28032"
+      },
+      "geo": {
+        "longitude": 12.81598,
+        "@id": "e5038184-0faf-4032-bd14-4dd00e7607be",
+        "@type": "GeoCoordinates",
+        "latitude": 53.27858
+      },
+      "dc:slug": "stadt-mirow-1",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "e5038184-0faf-4032-bd14-92c9697e1aab",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "2243991f-cb41-4a8d-a31c-93dce0ce4b73",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "7f2bef2a-2c5d-4231-bfa5-9fbe6d6ecc92",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "604edb2e-c5d3-4803-9dc5-438a945558c9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f3867e41-e526-4dfa-a105-e04f61f87404",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "0aff2477-f560-469f-a280-1e370f3921c9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Forsthaus Priepert",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Försterei 1",
+        "postalCode": "17255",
+        "addressLocality": "Priepert",
+        "@id": "2243991f-cb41-4a8d-a31c-1b9178cad2ec",
+        "url": "http://www.wald-mv.de"
+      },
+      "geo": {
+        "longitude": 13.0873,
+        "@id": "2243991f-cb41-4a8d-a31c-7f1d942dab5f",
+        "@type": "GeoCoordinates",
+        "latitude": 53.2266
+      },
+      "dc:slug": "landesforst-mecklenburg-vorpommern",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "2243991f-cb41-4a8d-a31c-a004f325b64a",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "efa03e65-c050-4f3a-9be5-509d32aef16d",
+      "@type": [
+        "CreativeWork",
+        "MediaObject",
+        "ImageObject",
+        "dcls:Bild"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "ca29fabd-20f2-4795-b2db-f608a1ad8d99",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f64cb33a-d8da-41b5-a556-d13f35b687b7",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Weihnachtsbaumverkauf",
+      "contentUrl": "https://contenthub.tmv.de/asset/efa03e65-c050-4f3a-9be5-509d32aef16d/jTILdbcGs_6UYbbPTO6fvv9vAIqhyH_ZZF468ab-hhw/1794231357/default/verkoop_van_kerstbomen.jpg",
+      "thumbnailUrl": "https://contenthub.tmv.de/asset/efa03e65-c050-4f3a-9be5-509d32aef16d/Y1NSFTxpATYICRFkNDmWDL8DFFfJV8iDYc-IH72i47c/1794231357/thumb/verkoop_van_kerstbomen",
+      "sameAs": "https://imxplatform-cust-tmv.fsn1.your-objectstorage.com/media/TMV/weihnachtsbaumverkauf.jpg",
+      "width": {
+        "@type": "QuantitativeValue",
+        "identifier": "width",
+        "name": "Breite",
+        "unitCode": "E37",
+        "unitText": "pixel",
+        "@id": "efa03e65-c050-4f3a-9be5-ba3314080a4d",
+        "value": 1488.0
+      },
+      "height": {
+        "@type": "QuantitativeValue",
+        "identifier": "height",
+        "name": "Höhe",
+        "unitCode": "E37",
+        "unitText": "pixel",
+        "@id": "efa03e65-c050-4f3a-9be5-e4a8d08924b0",
+        "value": 1534.0
+      },
+      "contentSize": 1005479.0,
+      "fileFormat": "image/jpeg",
+      "uploadDate": "2026-11-06",
+      "author": [
+        {
+          "@id": "24f5cdfa-6b29-47cc-a069-65c46276f432",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightHolder": [
+        {
+          "@id": "125388ce-5ced-495a-8e2c-5bc1a7398569",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "mandatoryLicense": false,
+      "dc:webUrl": "https://contenthub.tmv.de/asset/efa03e65-c050-4f3a-9be5-509d32aef16d/6hxPmvOqalXYVxecpwFkkV1c0RzmxpV8CvJfeUqTlBA/1794231357/web/verkoop_van_kerstbomen",
+      "copyrightNotice": "(c) Forstamt / privat",
+      "dc:slug": "weihnachtsbaumverkauf-1",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "efa03e65-c050-4f3a-9be5-634521450c54",
+          "value": 67.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "3588a6de-130c-473e-b3cb-e6a0fa1b0308",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "a6a4307f-d6e8-4c3c-8eed-15828c5cb593",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "dd4c2dcc-0596-4840-b93a-a3c2d943ee7f",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "eb26c883-950b-46c4-a504-4e54c41431bd",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "c6750383-0514-44bf-a1e5-fc56aaa96c83",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Revierförsterei Löcknitz",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Försterweg 15",
+        "postalCode": "17321",
+        "addressLocality": "Löcknitz",
+        "@id": "3588a6de-130c-473e-b3cb-6eed621f9a97",
+        "telephone": "039772/2650",
+        "url": "https://www.wald-mv.de/landesforst-mv/struktur-und-organisation/forstaemter/rothemuehl/"
+      },
+      "geo": {
+        "longitude": 14.20856,
+        "@id": "3588a6de-130c-473e-b3cb-0a618ef8e324",
+        "@type": "GeoCoordinates",
+        "latitude": 53.46656
+      },
+      "dc:slug": "revierfoersterei-loecknitz",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "3588a6de-130c-473e-b3cb-d578e9f0fe31",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "6dd0a5fc-7787-4ce4-b206-0533c25c3f01",
+      "@type": [
+        "CreativeWork",
+        "MediaObject",
+        "ImageObject",
+        "dcls:Bild"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "ca29fabd-20f2-4795-b2db-f608a1ad8d99",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "90179a8f-2b8f-461a-a6d7-04045cffda21",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "b18c7868-3cb2-4bd2-88a1-7415e8c17a84",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "5eb3ea7b-8d60-4df9-a952-a9be34dadb3b",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Plakat_2026_Weihnachtsbaumverkauf",
+      "contentUrl": "https://contenthub.tmv.de/asset/6dd0a5fc-7787-4ce4-b206-0533c25c3f01/QA6pRESSZGIrA0vb4h9s6Q4CtVXuvEkdzvMxpzze9OM/1794460176/default/affiche_2026_verkoop_van_kerstbomen.jpg",
+      "thumbnailUrl": "https://contenthub.tmv.de/asset/6dd0a5fc-7787-4ce4-b206-0533c25c3f01/bjQiLtNzADlm11pbnDTVM07OpMHBdsknhoSfWXBbOQs/1794460176/thumb/affiche_2026_verkoop_van_kerstbomen",
+      "sameAs": "https://imxplatform-cust-tmv.fsn1.your-objectstorage.com/media/https%3A/imxplatform-cust-tmv.fsn1.your-objectstorage.com/media/TMV/plakat_2026_weihnachtsbaumverkauf_2.jpg",
+      "fileFormat": "image/jpeg",
+      "uploadDate": "2026-11-12",
+      "author": [
+        {
+          "@id": "5888910d-513e-4f26-9ba2-2625c5466e0b",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightHolder": [
+        {
+          "@id": "5888910d-513e-4f26-9ba2-2625c5466e0b",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "mandatoryLicense": false,
+      "dc:webUrl": "https://contenthub.tmv.de/asset/6dd0a5fc-7787-4ce4-b206-0533c25c3f01/dKYwLRb1wsRrCVOZ3LrUVv1WirsE2ryk4VZ5XLtAbfg/1794460176/web/affiche_2026_verkoop_van_kerstbomen",
+      "copyrightNotice": "(c) Forstamt Bad Doberan / Forstamt Bad Doberan",
+      "dc:slug": "plakat_2026_weihnachtsbaumverkauf",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "6dd0a5fc-7787-4ce4-b206-36ebd1b7c238",
+          "value": 67.0,
           "minValue": 0,
           "maxValue": 100
         }
@@ -6009,7 +5295,7 @@
       ]
     },
     {
-      "@id": "75bb5a95-1adc-487d-a615-36525e54203c",
+      "@id": "bb3b1c4f-45ff-4320-a661-afd7e54e53f9",
       "@type": [
         "Place",
         "Organization",
@@ -6025,11 +5311,11 @@
       ],
       "dc:classification": [
         {
-          "@id": "485a1c62-2a60-401c-a94b-ba3927938bec",
+          "@id": "29cdc985-10e0-488d-874f-592eabf05d6f",
           "@type": "skos:Concept"
         },
         {
-          "@id": "7f52ce84-9303-4612-a087-7a8fdce75a97",
+          "@id": "d1b69607-ef04-42a6-b910-15ee6a73f302",
           "@type": "skos:Concept"
         },
         {
@@ -6037,7 +5323,7 @@
           "@type": "skos:Concept"
         },
         {
-          "@id": "ea4ff6dc-6a35-4c6f-ad4f-1e90a0cf29d4",
+          "@id": "eb26c883-950b-46c4-a504-4e54c41431bd",
           "@type": "skos:Concept"
         },
         {
@@ -6049,30 +5335,311 @@
           "@type": "skos:Concept"
         }
       ],
-      "name": "Landesforstanstalt M-V, Forstamt Neustrelitz",
+      "name": "Revierförsterei Lübbersdorf",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Carlshof 1",
-        "postalCode": "17237",
-        "addressLocality": "Blumenholz",
-        "@id": "75bb5a95-1adc-487d-a615-be1fc650b9a3",
-        "telephone": "03981 421060",
-        "email": "neustrelitz@lfoa-mv.de",
-        "url": "https://www.wald-mv.de"
+        "streetAddress": "Hauptstraße 19",
+        "postalCode": "17099",
+        "addressLocality": "Galenbeck OT Lübbersdorf",
+        "@id": "bb3b1c4f-45ff-4320-a661-279a7d4aca66"
       },
       "geo": {
-        "longitude": 13.08666,
-        "@id": "75bb5a95-1adc-487d-a615-da932ab7c010",
+        "longitude": 13.61971,
+        "@id": "bb3b1c4f-45ff-4320-a661-431691adb3d5",
         "@type": "GeoCoordinates",
-        "latitude": 53.40734
+        "latitude": 53.63796
       },
-      "dc:slug": "landesforstanstalt-m-v-forstamt-neustrelitz",
+      "dc:slug": "hauptstrasse-19-17099-galenbeck-ot-luebbersdorf",
       "dc:contentScore": [
         {
           "@type": "PropertyValue",
           "identifier": "internalContentScore",
           "name": "Interner Content Score",
-          "@id": "75bb5a95-1adc-487d-a615-058a4dbfdd05",
+          "@id": "bb3b1c4f-45ff-4320-a661-9c0ff6a5aec0",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "9f800a0a-3756-4768-8c24-a84908eb6ed1",
+      "@type": [
+        "CreativeWork",
+        "MediaObject",
+        "ImageObject",
+        "dcls:Bild"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "ca29fabd-20f2-4795-b2db-f608a1ad8d99",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "6a49109c-8f4a-4c6b-9a2f-59f3b75db9ae",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Motorsägenkurs",
+      "contentUrl": "https://contenthub.tmv.de/asset/9f800a0a-3756-4768-8c24-a84908eb6ed1/dSL7qVH4f1ln4zDnLbcM_IQVpSfx2oQOifHsm-3J-R0/1794318123/default/teaser-motorsaegenkurse-small.jpg",
+      "thumbnailUrl": "https://contenthub.tmv.de/asset/9f800a0a-3756-4768-8c24-a84908eb6ed1/soZit_SbQCjEf8fjpgZEYKiro9Y1PGpF9itlComGtPk/1794318123/thumb/teaser-motorsaegenkurse-small",
+      "sameAs": "https://imxplatform-cust-tmv.fsn1.your-objectstorage.com/media/TMV/teaser-motorsaegenkurse-small_2.jpg",
+      "width": {
+        "@type": "QuantitativeValue",
+        "identifier": "width",
+        "name": "Breite",
+        "unitCode": "E37",
+        "unitText": "pixel",
+        "@id": "9f800a0a-3756-4768-8c24-42e72e4d95f1",
+        "value": 714.0
+      },
+      "height": {
+        "@type": "QuantitativeValue",
+        "identifier": "height",
+        "name": "Höhe",
+        "unitCode": "E37",
+        "unitText": "pixel",
+        "@id": "9f800a0a-3756-4768-8c24-1c7ceaccbb0c",
+        "value": 1000.0
+      },
+      "contentSize": 171160.0,
+      "fileFormat": "image/jpeg",
+      "uploadDate": "2026-11-10",
+      "author": [
+        {
+          "@id": "a21bc459-5112-48ed-ad77-ee92b753507c",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightHolder": [
+        {
+          "@id": "a21bc459-5112-48ed-ad77-ee92b753507c",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "mandatoryLicense": false,
+      "dc:webUrl": "https://contenthub.tmv.de/asset/9f800a0a-3756-4768-8c24-a84908eb6ed1/LreVZOnhShXUHv3N6YJlKCK5VbI1pTScLyxzNWR7vcM/1794318123/web/teaser-motorsaegenkurse-small",
+      "copyrightNotice": "(c) LFoA M-V / LFoA M-V",
+      "dc:slug": "motorsaegenkurs",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "9f800a0a-3756-4768-8c24-9b911b0093e8",
+          "value": 67.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "7d3f3246-200a-45ef-927b-e9c80bc601d0",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "fb269430-2a8d-4822-aa47-ed04a3265b73",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "2bb42024-aa46-45bc-913f-d39270d46e06",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f3867e41-e526-4dfa-a105-e04f61f87404",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f3554556-8fb3-4b5b-9a8f-11f962b69702",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Streckenplatz Satow Hütte",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Dorfstr.",
+        "postalCode": "17213",
+        "addressLocality": "Fünfseen OT Satow",
+        "@id": "7d3f3246-200a-45ef-927b-618593c2984f"
+      },
+      "geo": {
+        "longitude": 12.38832,
+        "@id": "7d3f3246-200a-45ef-927b-05097f25e1fc",
+        "@type": "GeoCoordinates",
+        "latitude": 53.42522
+      },
+      "dc:slug": "streckenplatz-satow-huette",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "7d3f3246-200a-45ef-927b-da10182dfce9",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "6359adb1-6992-48cb-ba02-7e07e55aeb1b",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "5e43e860-eb72-4840-9e2f-b91204eeaccf",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "a39ed844-023a-4ab6-aa49-de60f5d1aec9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "57bf8c41-31ef-49a0-8808-39754f71e3fe",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "89e8f8f8-a7f4-46b8-9422-c89115c31528",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bdf4a6cd-5909-49f7-a505-c23921a9d6e5",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Revierförsterei Jamel",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Forststraße 14",
+        "postalCode": "19079",
+        "addressLocality": "Jamel",
+        "@id": "6359adb1-6992-48cb-ba02-f64a7d5e7284"
+      },
+      "geo": {
+        "longitude": 11.52911,
+        "@id": "6359adb1-6992-48cb-ba02-92c691b90b37",
+        "@type": "GeoCoordinates",
+        "latitude": 53.48716
+      },
+      "dc:slug": "landesforstanstalt-m-v-4",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "6359adb1-6992-48cb-ba02-4ddff6b11622",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "eb619c18-c3e3-4b02-bebd-150e091704cc",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "4fe44d61-d842-4b24-bccb-b1ade65ed91f",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "937ee358-623a-4fef-a4be-f8813c61b70f",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "eb26c883-950b-46c4-a504-4e54c41431bd",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "c6750383-0514-44bf-a1e5-fc56aaa96c83",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Forstamt Torgelow",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Anklamer Straße 10",
+        "postalCode": "17358",
+        "addressLocality": "Torgelow",
+        "@id": "eb619c18-c3e3-4b02-bebd-9d4391139d53"
+      },
+      "geo": {
+        "longitude": 13.99451,
+        "@id": "eb619c18-c3e3-4b02-bebd-f9cf7df4e4e0",
+        "@type": "GeoCoordinates",
+        "latitude": 53.63238
+      },
+      "dc:slug": "weihnachtsmarkt-auf-dem-forsthof",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "eb619c18-c3e3-4b02-bebd-26d61afcf9f5",
           "value": 61.0,
           "minValue": 0,
           "maxValue": 100
@@ -6147,7 +5714,7 @@
       ]
     },
     {
-      "@id": "8fc48267-be96-4249-b20f-c27204eabf9e",
+      "@id": "8b06e51a-744d-4326-95b2-d0712bfefa28",
       "@type": [
         "Place",
         "Organization",
@@ -6163,7 +5730,23 @@
       ],
       "dc:classification": [
         {
-          "@id": "57bf8c41-31ef-49a0-8808-39754f71e3fe",
+          "@id": "485a1c62-2a60-401c-a94b-ba3927938bec",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "7f52ce84-9303-4612-a087-7a8fdce75a97",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f3867e41-e526-4dfa-a105-e04f61f87404",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ea4ff6dc-6a35-4c6f-ad4f-1e90a0cf29d4",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
           "@type": "skos:Concept"
         },
         {
@@ -6171,22 +5754,755 @@
           "@type": "skos:Concept"
         }
       ],
-      "name": "Weihnachtsbaumverkauf 2026",
+      "name": "Revierförsterei Carlshof",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Zum Forsthof 2",
-        "postalCode": "19089",
-        "addressLocality": "Tramm OT Bahelnhüschen",
-        "@id": "8fc48267-be96-4249-b20f-4a3f9cee2601"
+        "streetAddress": "Carlshof 1",
+        "postalCode": "17237",
+        "addressLocality": "Blumenholz",
+        "@id": "8b06e51a-744d-4326-95b2-583cb3fa63b7",
+        "telephone": "+49 3981 421060",
+        "url": "https://www.wald-mv.de"
       },
-      "dc:slug": "weihnachtsbaumverkauf-2026-1",
+      "geo": {
+        "longitude": 13.08666,
+        "@id": "8b06e51a-744d-4326-95b2-3cb05f1d1a04",
+        "@type": "GeoCoordinates",
+        "latitude": 53.40734
+      },
+      "dc:slug": "weihnachtsbaumverkauf-an-der-revierfoersterei-carlshof",
       "dc:contentScore": [
         {
           "@type": "PropertyValue",
           "identifier": "internalContentScore",
           "name": "Interner Content Score",
-          "@id": "8fc48267-be96-4249-b20f-f1aa170142a7",
+          "@id": "8b06e51a-744d-4326-95b2-e3a938150711",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "46cd81d6-7734-4a4c-85b1-610a7b70ad17",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "2f48d2f4-e730-4ce2-a8c6-5a8f08b1ae3f",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Forstamt Poggendorf",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Grimmener Straße 16",
+        "postalCode": "18516",
+        "addressLocality": "Süderholz",
+        "@id": "46cd81d6-7734-4a4c-85b1-e947e3743488",
+        "telephone": "038331 / 613 - 0",
+        "url": "https://www.wald-mv.de/landesforst-mv/struktur-und-organisation/forstaemter/poggendorf/"
+      },
+      "dc:slug": "forstamt-poggendorf",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "46cd81d6-7734-4a4c-85b1-52d2689b502e",
           "value": 36.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "8360f42c-9e2d-4df4-92ef-35298beec21d",
+      "@type": [
+        "CreativeWork",
+        "MediaObject",
+        "ImageObject",
+        "dcls:Bild"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "ca29fabd-20f2-4795-b2db-f608a1ad8d99",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "61c39157-5c7d-4852-a2d4-8db928edd177",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Waldmarkt_Plakat",
+      "contentUrl": "https://contenthub.tmv.de/asset/8360f42c-9e2d-4df4-92ef-35298beec21d/RC3heI9CGAhBCiZ4a29X0aQ-rSiyLmbILB89mWBONQQ/1794460166/default/plakat_waldmarkt.jpg",
+      "thumbnailUrl": "https://contenthub.tmv.de/asset/8360f42c-9e2d-4df4-92ef-35298beec21d/vzlS17-dNvX9OTuMR4_ejSeBmHDYxnV6wZ53nOWSbKw/1794460166/thumb/plakat_waldmarkt",
+      "sameAs": "https://imxplatform-cust-tmv.fsn1.your-objectstorage.com/media/TMV/waldmarkt_plakat.jpg",
+      "width": {
+        "@type": "QuantitativeValue",
+        "identifier": "width",
+        "name": "Breite",
+        "unitCode": "E37",
+        "unitText": "pixel",
+        "@id": "8360f42c-9e2d-4df4-92ef-df87ad48393d",
+        "value": 720.0
+      },
+      "height": {
+        "@type": "QuantitativeValue",
+        "identifier": "height",
+        "name": "Höhe",
+        "unitCode": "E37",
+        "unitText": "pixel",
+        "@id": "8360f42c-9e2d-4df4-92ef-811c69c917c0",
+        "value": 1040.0
+      },
+      "contentSize": 165500.0,
+      "fileFormat": "image/jpeg",
+      "uploadDate": "2026-11-11",
+      "copyrightHolder": [
+        {
+          "@id": "e23539ca-6200-45f0-82c7-a6fee80e29c7",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "mandatoryLicense": false,
+      "dc:webUrl": "https://contenthub.tmv.de/asset/8360f42c-9e2d-4df4-92ef-35298beec21d/_nWujrlqTcNzFKeZ_6XmaC0yha_TEzOMtilfL60u_ow/1794460166/web/plakat_waldmarkt",
+      "copyrightNotice": "(c) FoA Jägerhof",
+      "dc:slug": "waldmarkt_plakat",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "8360f42c-9e2d-4df4-92ef-06f198053f24",
+          "value": 67.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "5eab413f-adbf-45f5-b029-6f86f38399be",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "37e4ce68-258f-48b0-abd3-2360ff4f2d3d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "57bf8c41-31ef-49a0-8808-39754f71e3fe",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "89e8f8f8-a7f4-46b8-9422-c89115c31528",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "bdf4a6cd-5909-49f7-a505-c23921a9d6e5",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Forstamt Friedrichsmoor",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Schloßallee 9",
+        "postalCode": "19306",
+        "addressLocality": "Neustadt-Glewe OT Friedrichsmoor",
+        "@id": "5eab413f-adbf-45f5-b029-e7cb6b870021"
+      },
+      "geo": {
+        "longitude": 11.57217,
+        "@id": "5eab413f-adbf-45f5-b029-834787607992",
+        "@type": "GeoCoordinates",
+        "latitude": 53.45846
+      },
+      "dc:slug": "weihnachtsbaumverkauf-2026",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "5eab413f-adbf-45f5-b029-5c5ee0686487",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "75bb5a95-1adc-487d-a615-36525e54203c",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "485a1c62-2a60-401c-a94b-ba3927938bec",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "7f52ce84-9303-4612-a087-7a8fdce75a97",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f3867e41-e526-4dfa-a105-e04f61f87404",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Forstamt Neustrelitz",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Wilhelminenhof 6",
+        "postalCode": "17237",
+        "addressLocality": "Blumenholz",
+        "@id": "75bb5a95-1adc-487d-a615-be1fc650b9a3",
+        "telephone": "+49 3981 421060",
+        "email": "neustrelitz@lfoa-mv.de",
+        "url": "https://www.wald-mv.de"
+      },
+      "geo": {
+        "longitude": 13.14063,
+        "@id": "75bb5a95-1adc-487d-a615-da932ab7c010",
+        "@type": "GeoCoordinates",
+        "latitude": 53.3915
+      },
+      "dc:slug": "landesforstanstalt-m-v-forstamt-neustrelitz",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "75bb5a95-1adc-487d-a615-058a4dbfdd05",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "e62ba779-b72e-429f-bf6a-3c9e4f3b4666",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "f6c5b041-4580-4677-841d-218b7990b1bd",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "61c39157-5c7d-4852-a2d4-8db928edd177",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "46b37871-6e89-40a5-a011-61ff1d1cd58e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "277e01ff-efee-43d5-82b0-d35c2bf93198",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "c8ce7298-bddc-48c1-86e7-749a120aa213",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "eb26c883-950b-46c4-a504-4e54c41431bd",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "297a5f1a-a177-46c2-84c2-cde48b62ceb1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d86c31b2-41de-4cbf-a6ba-50719d00f62f",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "c6750383-0514-44bf-a1e5-fc56aaa96c83",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Forstamt Jägerhof",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Hainstraße 5",
+        "postalCode": "17493",
+        "addressLocality": "Greifswald-Eldena",
+        "@id": "e62ba779-b72e-429f-bf6a-b4d3d73fdff9",
+        "telephone": "03834836100",
+        "email": "jaegerhof@lfoa-mv.de",
+        "url": "https://www.wald-mv.de/landesforst-mv/struktur-und-organisation/forstaemter/jaegerhof/"
+      },
+      "geo": {
+        "longitude": 13.44983,
+        "@id": "e62ba779-b72e-429f-bf6a-d05f3bd8a64a",
+        "@type": "GeoCoordinates",
+        "latitude": 54.08813
+      },
+      "dc:slug": "forstamt-jaegerhof-2",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "e62ba779-b72e-429f-bf6a-0f465cd0bb5f",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "80a60aef-36a0-4bd3-bdb5-e1ea09f8700f",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "9c211559-cb43-4382-93fa-dbd227151c7d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "efdff111-78db-4d81-a078-586079e935c5",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "c7042e2d-8951-491a-8b5a-aacccde1b073",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "5c5034ee-2336-498a-a25e-a22ab1a989bb",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "06406c52-262f-47c7-8d1a-fd502a3dcb5d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "b02c4782-2552-4dfd-babc-f300fea7837b",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "0acd6677-bf5c-4a1a-86b5-4dea336128a3",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d8771bd8-0171-4785-a4c1-c8be67eeaba5",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "a5ed2593-9c1d-4f75-b324-89c5762eca0d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "46b37871-6e89-40a5-a011-61ff1d1cd58e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d86c31b2-41de-4cbf-a6ba-50719d00f62f",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "27e4ab2a-79ad-4d62-9d24-bfaea4cbe3e8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Forstamt Bad Doberan",
+      "image": [
+        {
+          "@id": "f571d0bf-fc8f-4d66-bcff-0c3f7c0763eb",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ]
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Neue Reihe 46",
+        "postalCode": "18209",
+        "addressLocality": "Bad Doberan",
+        "@id": "80a60aef-36a0-4bd3-bdb5-69a791fce990",
+        "telephone": "+49 38203 22630"
+      },
+      "geo": {
+        "longitude": 11.893000000000029,
+        "@id": "80a60aef-36a0-4bd3-bdb5-0d2b7d1b9023",
+        "@type": "GeoCoordinates",
+        "latitude": 54.10878
+      },
+      "dc:additionalInformation": [
+        {
+          "@id": "f0e1cea4-f854-4813-82f6-633c7ea53982",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "8e449fed-9f28-4484-b8ab-74e5d07553f3",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "d3f9b5a9-b1bc-4649-89b5-b09b6891adef",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "1e9feb5d-0cc9-46ca-8daa-d18a01f9b37d",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "441cd7fe-b941-42b0-bc61-e3bb8abe3b06",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "a452b9f7-e57e-4289-8a72-ceaaf6ada726",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "c468fb74-c03c-40be-95d3-788fa9960635",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "608a392c-bd1c-4e01-8f05-4b42febca5e3",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "dc:slug": "forstamt-bad-doberan",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "80a60aef-36a0-4bd3-bdb5-d2321a138d36",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ],
+      "imxContentScore": 60.55
+    },
+    {
+      "@id": "1d19a24c-bea8-4bbe-aaae-e4944dc999a4",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "12077c36-c0a2-45fe-8b37-f565c454cd44",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d1b69607-ef04-42a6-b910-15ee6a73f302",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f3867e41-e526-4dfa-a105-e04f61f87404",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ea4ff6dc-6a35-4c6f-ad4f-1e90a0cf29d4",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Revierförsterei Neuendorf",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Forsthaus 2",
+        "postalCode": "17039",
+        "addressLocality": "Wulkenzin OT Neu Rhäse",
+        "@id": "1d19a24c-bea8-4bbe-aaae-6cd9d5cd003b"
+      },
+      "geo": {
+        "longitude": 13.1814,
+        "@id": "1d19a24c-bea8-4bbe-aaae-0855392a7988",
+        "@type": "GeoCoordinates",
+        "latitude": 53.52455
+      },
+      "dc:slug": "forsthaus-2-17039-neu-rhaese-wulkenzin",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "1d19a24c-bea8-4bbe-aaae-d74c5e22649d",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "c0668942-b42e-4499-a94e-af3e20232cbe",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "fab5066f-a5b7-48b5-a180-2bba465c42e5",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f64cb33a-d8da-41b5-a556-d13f35b687b7",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f3867e41-e526-4dfa-a105-e04f61f87404",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "8d461de3-ec8c-4b5c-b9af-13af36ae25f7",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Forstamt Lüttenhagen",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Forsthof 1",
+        "postalCode": "17258",
+        "addressLocality": "Feldberger Seenlandschaft",
+        "@id": "c0668942-b42e-4499-a94e-2773b827b521",
+        "telephone": "+49 39831 59120",
+        "url": "https://www.wald-mv.de"
+      },
+      "geo": {
+        "longitude": 13.37832,
+        "@id": "c0668942-b42e-4499-a94e-43ff54c0cc92",
+        "@type": "GeoCoordinates",
+        "latitude": 53.336
+      },
+      "dc:slug": "forstamt-luettenhagen",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "c0668942-b42e-4499-a94e-9ce633c8d187",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "770ce6d3-956f-48f4-98c1-84b76ab4157b",
+      "@type": [
+        "CreativeWork",
+        "MediaObject",
+        "ImageObject",
+        "dcls:Bild"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "ca29fabd-20f2-4795-b2db-f608a1ad8d99",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f10ca8c4-85e2-4e4a-a09b-440fc97a7b10",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Forstamt Dargun",
+      "contentUrl": "https://contenthub.tmv.de/asset/770ce6d3-956f-48f4-98c1-84b76ab4157b/2PNuKGWAtgd_YTHcGWCfXJ82NnQPpNvxXrbXkBzXZVM/1794318124/default/darguwinter1.jpg",
+      "thumbnailUrl": "https://contenthub.tmv.de/asset/770ce6d3-956f-48f4-98c1-84b76ab4157b/HWl7mAoqkK30bYwYL8hzWY3Wz5tkFBNBzV9oIQI1P68/1794318124/thumb/darguwinter1",
+      "sameAs": "https://imxplatform-cust-tmv.fsn1.your-objectstorage.com/media/TMV/darguwinter1_1.jpg",
+      "width": {
+        "@type": "QuantitativeValue",
+        "identifier": "width",
+        "name": "Breite",
+        "unitCode": "E37",
+        "unitText": "pixel",
+        "@id": "770ce6d3-956f-48f4-98c1-6e194c12ee5b",
+        "value": 2720.0
+      },
+      "height": {
+        "@type": "QuantitativeValue",
+        "identifier": "height",
+        "name": "Höhe",
+        "unitCode": "E37",
+        "unitText": "pixel",
+        "@id": "770ce6d3-956f-48f4-98c1-30828893c0a6",
+        "value": 2041.0
+      },
+      "contentSize": 839402.0,
+      "fileFormat": "image/jpeg",
+      "uploadDate": "2026-11-10",
+      "copyrightHolder": [
+        {
+          "@id": "c1794837-c8b3-4382-9605-85bf5874422d",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "mandatoryLicense": false,
+      "dc:webUrl": "https://contenthub.tmv.de/asset/770ce6d3-956f-48f4-98c1-84b76ab4157b/S7btCR0B6_df_buhN0Pk3G3U_aaRYgY1d5AF28MZ7_E/1794318124/web/darguwinter1",
+      "copyrightNotice": "(c) eigenes Foto",
+      "dc:slug": "forstamt-dargun",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "770ce6d3-956f-48f4-98c1-b76f795fe842",
+          "value": 67.0,
           "minValue": 0,
           "maxValue": 100
         }
