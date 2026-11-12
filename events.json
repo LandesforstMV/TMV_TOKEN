@@ -1046,6 +1046,1069 @@
         }
       ],
       "imxContentScore": 61.5
+    },
+    {
+      "@id": "6c6c70d5-6372-49b6-8b62-60c66cdb7fbf",
+      "@type": [
+        "CreativeWork",
+        "MediaObject",
+        "ImageObject",
+        "dcls:Bild"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "ca29fabd-20f2-4795-b2db-f608a1ad8d99",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "8d03d556-19bb-4089-ac24-e5942d7b9d6a",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Waldarbeitermeisterschaft",
+      "contentUrl": "https://contenthub.tmv.de/asset/6c6c70d5-6372-49b6-8b62-60c66cdb7fbf/uPi4rFDQkf9C1Fj-UdLV1xAktbtrVsBKtGmVrbArHdg/1792499522/default/kampioenschap_voor_bosarbeiders.jpg",
+      "thumbnailUrl": "https://contenthub.tmv.de/asset/6c6c70d5-6372-49b6-8b62-60c66cdb7fbf/tnhLiWeDfISJN30vi_aa_QBPbfmsH_Kxa1oVRvhtQNM/1792499522/thumb/kampioenschap_voor_bosarbeiders",
+      "sameAs": "https://imxplatform-cust-tmv.fsn1.your-objectstorage.com/media/TMV/nl.jpg",
+      "width": {
+        "@type": "QuantitativeValue",
+        "identifier": "width",
+        "name": "Breite",
+        "unitCode": "E37",
+        "unitText": "pixel",
+        "@id": "6c6c70d5-6372-49b6-8b62-8a684a7d849f",
+        "value": 2000.0
+      },
+      "height": {
+        "@type": "QuantitativeValue",
+        "identifier": "height",
+        "name": "Höhe",
+        "unitCode": "E37",
+        "unitText": "pixel",
+        "@id": "6c6c70d5-6372-49b6-8b62-d4f38efcaa62",
+        "value": 2500.0
+      },
+      "contentSize": 589049.0,
+      "fileFormat": "image/jpeg",
+      "uploadDate": "2026-10-20",
+      "copyrightHolder": [
+        {
+          "@id": "6b35e427-0db7-4225-aea7-10c7f19a2ee0",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "mandatoryLicense": false,
+      "dc:webUrl": "https://contenthub.tmv.de/asset/6c6c70d5-6372-49b6-8b62-60c66cdb7fbf/EgvArFxmquRpH91yo6wTrYksC008Vygq95rbuQH2AZU/1792499522/web/kampioenschap_voor_bosarbeiders",
+      "copyrightNotice": "(c) Landesfors MV",
+      "dc:slug": "waldarbeitermeisterschaft",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "6c6c70d5-6372-49b6-8b62-531e7f308286",
+          "value": 67.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "f934719f-612f-415f-ad3d-babdff61e033",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "1d22d305-4164-45df-b315-9e9545bc6395",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "604edb2e-c5d3-4803-9dc5-438a945558c9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f3867e41-e526-4dfa-a105-e04f61f87404",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Forstamt Mirow",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rudolf-Breitscheid-Str. 26",
+        "postalCode": "17252",
+        "addressLocality": "Mirow",
+        "@id": "f934719f-612f-415f-ad3d-32f0676579ac",
+        "url": "https://www.wald-mv.de/"
+      },
+      "geo": {
+        "longitude": 12.8158,
+        "@id": "f934719f-612f-415f-ad3d-567c8b82001f",
+        "@type": "GeoCoordinates",
+        "latitude": 53.27914
+      },
+      "dc:slug": "forstamt-mirow-4",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "f934719f-612f-415f-ad3d-8965ec8a1d0a",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "6329094f-5d72-457b-afb8-6b1e7ec5eef6",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "1d22d305-4164-45df-b315-9e9545bc6395",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "cab2729c-0f60-4bb0-84d9-0f9c2beadcf1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "c7042e2d-8951-491a-8b5a-aacccde1b073",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ecf13839-0e45-498d-abbf-93cc7b999a5d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "c7ae433d-c08d-4616-98fc-92d647f65f54",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "06406c52-262f-47c7-8d1a-fd502a3dcb5d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d8771bd8-0171-4785-a4c1-c8be67eeaba5",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3b3c430c-ccb6-4d1d-a58b-0fea5e3a0a55",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "11ec5130-d312-4138-8e69-b32222f3f61e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "a5ed2593-9c1d-4f75-b324-89c5762eca0d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "7d1a71dc-e7c4-4ba4-a214-a39f3462f122",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f3867e41-e526-4dfa-a105-e04f61f87404",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f1fd4fe1-7ae1-4e81-aff7-40c3802e92c1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Schlossinsel Mirow",
+      "image": [
+        {
+          "@id": "69438dc6-838f-40e2-b7da-32e28b6c57f1",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ]
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Schlossinsel",
+        "postalCode": "17252",
+        "addressLocality": "Mirow",
+        "@id": "6329094f-5d72-457b-afb8-e353e6c17769"
+      },
+      "geo": {
+        "longitude": 12.81041,
+        "@id": "6329094f-5d72-457b-afb8-87df0a260eda",
+        "@type": "GeoCoordinates",
+        "latitude": 53.27656
+      },
+      "dc:additionalInformation": [
+        {
+          "@id": "30e30a22-5244-4510-b819-01be7f0164ae",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "19079e3d-abca-4860-92f4-a624aab2f400",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "f29009a3-3321-4219-875b-ec41278039e2",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "87253fd0-de3c-4646-82eb-241a325dd977",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "4c186786-a3ff-4183-86b8-14ca82632889",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "1c3a015d-b360-457e-a713-49c25fa3afd0",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "e492fa2d-5ee6-4f8d-a512-86c766e81e98",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "e852e7f7-c601-45da-b775-4506d07fcb6d",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "dc:slug": "schlossinsel-mirow-5",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "6329094f-5d72-457b-afb8-58c66d2e13cf",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ],
+      "imxContentScore": 69.55
+    },
+    {
+      "@id": "efa03e65-c050-4f3a-9be5-509d32aef16d",
+      "@type": [
+        "CreativeWork",
+        "MediaObject",
+        "ImageObject",
+        "dcls:Bild"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "ca29fabd-20f2-4795-b2db-f608a1ad8d99",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f64cb33a-d8da-41b5-a556-d13f35b687b7",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Weihnachtsbaumverkauf",
+      "contentUrl": "https://contenthub.tmv.de/asset/efa03e65-c050-4f3a-9be5-509d32aef16d/jTILdbcGs_6UYbbPTO6fvv9vAIqhyH_ZZF468ab-hhw/1794231357/default/verkoop_van_kerstbomen.jpg",
+      "thumbnailUrl": "https://contenthub.tmv.de/asset/efa03e65-c050-4f3a-9be5-509d32aef16d/Y1NSFTxpATYICRFkNDmWDL8DFFfJV8iDYc-IH72i47c/1794231357/thumb/verkoop_van_kerstbomen",
+      "sameAs": "https://imxplatform-cust-tmv.fsn1.your-objectstorage.com/media/TMV/weihnachtsbaumverkauf.jpg",
+      "width": {
+        "@type": "QuantitativeValue",
+        "identifier": "width",
+        "name": "Breite",
+        "unitCode": "E37",
+        "unitText": "pixel",
+        "@id": "efa03e65-c050-4f3a-9be5-ba3314080a4d",
+        "value": 1488.0
+      },
+      "height": {
+        "@type": "QuantitativeValue",
+        "identifier": "height",
+        "name": "Höhe",
+        "unitCode": "E37",
+        "unitText": "pixel",
+        "@id": "efa03e65-c050-4f3a-9be5-e4a8d08924b0",
+        "value": 1534.0
+      },
+      "contentSize": 1005479.0,
+      "fileFormat": "image/jpeg",
+      "uploadDate": "2026-11-06",
+      "author": [
+        {
+          "@id": "24f5cdfa-6b29-47cc-a069-65c46276f432",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightHolder": [
+        {
+          "@id": "125388ce-5ced-495a-8e2c-5bc1a7398569",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "mandatoryLicense": false,
+      "dc:webUrl": "https://contenthub.tmv.de/asset/efa03e65-c050-4f3a-9be5-509d32aef16d/6hxPmvOqalXYVxecpwFkkV1c0RzmxpV8CvJfeUqTlBA/1794231357/web/verkoop_van_kerstbomen",
+      "copyrightNotice": "(c) Forstamt / privat",
+      "dc:slug": "weihnachtsbaumverkauf-1",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "efa03e65-c050-4f3a-9be5-634521450c54",
+          "value": 67.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "b33547f2-7051-4457-bfab-ddac001ad394",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "2b3bb10e-e831-4cbf-b209-2e6383a837cd",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "8d03d556-19bb-4089-ac24-e5942d7b9d6a",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "88c4151d-4c89-46d3-bb7c-3ea08c300dca",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "MeLa - Landwirtschaftsausstellung in Mühlengeez",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Leute-Wiese 10",
+        "postalCode": "18276",
+        "addressLocality": "Mühlengeez",
+        "@id": "b33547f2-7051-4457-bfab-55e1981e4a0b"
+      },
+      "geo": {
+        "longitude": 12.05056,
+        "@id": "b33547f2-7051-4457-bfab-316d74f933b8",
+        "@type": "GeoCoordinates",
+        "latitude": 53.76862
+      },
+      "dc:slug": "mela-landwirtschaftsausstellung-in-muehlengeez",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "b33547f2-7051-4457-bfab-ee7413f12ead",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "6b7ef75b-dd8a-4f20-a9f0-a05e48c75532",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "275963d5-85f9-4ca8-b937-fb0b7beecc29",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "6a49109c-8f4a-4c6b-9a2f-59f3b75db9ae",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "46b37871-6e89-40a5-a011-61ff1d1cd58e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "37f61522-9045-414f-a67d-44d87c714937",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "d86c31b2-41de-4cbf-a6ba-50719d00f62f",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "27e4ab2a-79ad-4d62-9d24-bfaea4cbe3e8",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Forstamt Billenhagen",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Billenhagen 3",
+        "postalCode": "18182",
+        "addressLocality": "Blankenhagen",
+        "@id": "6b7ef75b-dd8a-4f20-a9f0-2813d0c3ccad",
+        "telephone": "+49 38224447810",
+        "url": "https://www.wald-mv.de/landesforst-mv/struktur-und-organisation/forstaemter/billenhagen/"
+      },
+      "geo": {
+        "longitude": 12.3584,
+        "@id": "6b7ef75b-dd8a-4f20-a9f0-4c9f3c24b51e",
+        "@type": "GeoCoordinates",
+        "latitude": 54.12363
+      },
+      "dc:slug": "landesforstanstalt-m-v-forstamt-billenhagen",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "6b7ef75b-dd8a-4f20-a9f0-93865b2ca80b",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "9f800a0a-3756-4768-8c24-a84908eb6ed1",
+      "@type": [
+        "CreativeWork",
+        "MediaObject",
+        "ImageObject",
+        "dcls:Bild"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "ca29fabd-20f2-4795-b2db-f608a1ad8d99",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "6a49109c-8f4a-4c6b-9a2f-59f3b75db9ae",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Motorsägenkurs",
+      "contentUrl": "https://contenthub.tmv.de/asset/9f800a0a-3756-4768-8c24-a84908eb6ed1/dSL7qVH4f1ln4zDnLbcM_IQVpSfx2oQOifHsm-3J-R0/1794318123/default/teaser-motorsaegenkurse-small.jpg",
+      "thumbnailUrl": "https://contenthub.tmv.de/asset/9f800a0a-3756-4768-8c24-a84908eb6ed1/soZit_SbQCjEf8fjpgZEYKiro9Y1PGpF9itlComGtPk/1794318123/thumb/teaser-motorsaegenkurse-small",
+      "sameAs": "https://imxplatform-cust-tmv.fsn1.your-objectstorage.com/media/TMV/teaser-motorsaegenkurse-small_2.jpg",
+      "width": {
+        "@type": "QuantitativeValue",
+        "identifier": "width",
+        "name": "Breite",
+        "unitCode": "E37",
+        "unitText": "pixel",
+        "@id": "9f800a0a-3756-4768-8c24-42e72e4d95f1",
+        "value": 714.0
+      },
+      "height": {
+        "@type": "QuantitativeValue",
+        "identifier": "height",
+        "name": "Höhe",
+        "unitCode": "E37",
+        "unitText": "pixel",
+        "@id": "9f800a0a-3756-4768-8c24-1c7ceaccbb0c",
+        "value": 1000.0
+      },
+      "contentSize": 171160.0,
+      "fileFormat": "image/jpeg",
+      "uploadDate": "2026-11-10",
+      "author": [
+        {
+          "@id": "a21bc459-5112-48ed-ad77-ee92b753507c",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "copyrightHolder": [
+        {
+          "@id": "a21bc459-5112-48ed-ad77-ee92b753507c",
+          "@type": [
+            "Organization",
+            "dcls:Organization"
+          ]
+        }
+      ],
+      "mandatoryLicense": false,
+      "dc:webUrl": "https://contenthub.tmv.de/asset/9f800a0a-3756-4768-8c24-a84908eb6ed1/LreVZOnhShXUHv3N6YJlKCK5VbI1pTScLyxzNWR7vcM/1794318123/web/teaser-motorsaegenkurse-small",
+      "copyrightNotice": "(c) LFoA M-V / LFoA M-V",
+      "dc:slug": "motorsaegenkurs",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "9f800a0a-3756-4768-8c24-9b911b0093e8",
+          "value": 67.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "e9c7fedd-ce49-4cec-8c81-aaeaba34f358",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "1d22d305-4164-45df-b315-9e9545bc6395",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "cab2729c-0f60-4bb0-84d9-0f9c2beadcf1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ab90ae24-d5e8-4b11-af04-a16aef7b31ca",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "c7042e2d-8951-491a-8b5a-aacccde1b073",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "ecf13839-0e45-498d-abbf-93cc7b999a5d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "06406c52-262f-47c7-8d1a-fd502a3dcb5d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "655a9fd1-f382-458d-b419-4770889dc2b9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "3b3c430c-ccb6-4d1d-a58b-0fea5e3a0a55",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "a5ed2593-9c1d-4f75-b324-89c5762eca0d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "965d0a23-2008-403c-8100-f96b815fb18d",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f3867e41-e526-4dfa-a105-e04f61f87404",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f1fd4fe1-7ae1-4e81-aff7-40c3802e92c1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "330e3837-6163-4748-9701-95d18e0c989c",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Mirower Holm",
+      "address": {
+        "@type": "PostalAddress",
+        "postalCode": "17252",
+        "addressLocality": "Mirow",
+        "@id": "e9c7fedd-ce49-4cec-8c81-22a722306ac7",
+        "telephone": "+49 (0)39833 27567",
+        "faxNumber": "+49 (0)39833 269962",
+        "email": "info@klein-seenplatte.de",
+        "url": "http://www.klein-seenplatte.de"
+      },
+      "geo": {
+        "longitude": 12.805033092498775,
+        "@id": "e9c7fedd-ce49-4cec-8c81-462bced71374",
+        "@type": "GeoCoordinates",
+        "latitude": 53.236196070634996
+      },
+      "dc:additionalInformation": [
+        {
+          "@id": "936fffe6-e5ad-467a-962c-638cde4f7448",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "e28ac312-92d6-4711-90df-a3fd93355c87",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "71cca54a-9ec6-438a-9fc6-86cae8d9be7c",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "0bd7c0bd-3276-42c5-beb3-6353ca8f0fc1",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "33fe1fbb-c4de-471a-ac91-774ffed76a75",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "a260d763-cfc2-4ef4-9ac2-4416eb9ba223",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "b77cef49-20d4-4d3c-ba45-feb06536b58a",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        },
+        {
+          "@id": "032188b9-1c35-4fa4-8bf6-14cac62a9a52",
+          "@type": [
+            "CreativeWork",
+            "dcls:Ergänzende Information"
+          ]
+        }
+      ],
+      "dc:slug": "mirower-holm",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "e9c7fedd-ce49-4cec-8c81-9932a9df0e61",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ],
+      "imxContentScore": 33.0
+    },
+    {
+      "@id": "2243991f-cb41-4a8d-a31c-93dce0ce4b73",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "7f2bef2a-2c5d-4231-bfa5-9fbe6d6ecc92",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "cab2729c-0f60-4bb0-84d9-0f9c2beadcf1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f3867e41-e526-4dfa-a105-e04f61f87404",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "0aff2477-f560-469f-a280-1e370f3921c9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Landesforst Mecklenburg-Vorpommern",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Försterei 1",
+        "postalCode": "17255",
+        "addressLocality": "Priepert",
+        "@id": "2243991f-cb41-4a8d-a31c-1b9178cad2ec",
+        "telephone": "0173 / 3010679",
+        "email": "heike.roth@lfoa-mv.de",
+        "url": "http://www.wald-mv.de"
+      },
+      "geo": {
+        "longitude": 13.0873,
+        "@id": "2243991f-cb41-4a8d-a31c-7f1d942dab5f",
+        "@type": "GeoCoordinates",
+        "latitude": 53.2266
+      },
+      "dc:slug": "landesforst-mecklenburg-vorpommern",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "2243991f-cb41-4a8d-a31c-a004f325b64a",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "f6124d85-2413-443a-9837-24f1ed01a125",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "b17463be-09cc-499b-adac-490775f1514e",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f8b6493a-be80-4094-bde6-29269acfe53c",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f3867e41-e526-4dfa-a105-e04f61f87404",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Landesforstanstalt M-V",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Fritz-Reuter Platz 9",
+        "postalCode": "17139",
+        "addressLocality": "Malchin",
+        "@id": "f6124d85-2413-443a-9837-acbc750538ba",
+        "telephone": "0173-3461221",
+        "email": "tomke.devries@lfoa-mv.de",
+        "url": "https://www.wald-mv.de"
+      },
+      "geo": {
+        "longitude": 12.7546,
+        "@id": "f6124d85-2413-443a-9837-c83099e24109",
+        "@type": "GeoCoordinates",
+        "latitude": 53.74088
+      },
+      "dc:slug": "landesforstanstalt-m-v",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "f6124d85-2413-443a-9837-1729feea5c1c",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "c0668942-b42e-4499-a94e-af3e20232cbe",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "fab5066f-a5b7-48b5-a180-2bba465c42e5",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f64cb33a-d8da-41b5-a556-d13f35b687b7",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f3867e41-e526-4dfa-a105-e04f61f87404",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "8d461de3-ec8c-4b5c-b9af-13af36ae25f7",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Forstamt Lüttenhagen",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Forsthof 1",
+        "postalCode": "17258",
+        "addressLocality": "Feldberger Seenlandschaft",
+        "@id": "c0668942-b42e-4499-a94e-2773b827b521",
+        "telephone": "+49 39831 59120",
+        "url": "https://www.wald-mv.de"
+      },
+      "geo": {
+        "longitude": 13.37832,
+        "@id": "c0668942-b42e-4499-a94e-43ff54c0cc92",
+        "@type": "GeoCoordinates",
+        "latitude": 53.336
+      },
+      "dc:slug": "forstamt-luettenhagen",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "c0668942-b42e-4499-a94e-9ce633c8d187",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
+    },
+    {
+      "@id": "e5038184-0faf-4032-bd14-a1117a95e792",
+      "@type": [
+        "Place",
+        "Organization",
+        "LocalBusiness",
+        "dcls:LocalBusiness"
+      ],
+      "dc:multilingual": true,
+      "dc:translation": [
+        "de",
+        "en",
+        "pl",
+        "nl"
+      ],
+      "dc:classification": [
+        {
+          "@id": "1d22d305-4164-45df-b315-9e9545bc6395",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "cab2729c-0f60-4bb0-84d9-0f9c2beadcf1",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "f3867e41-e526-4dfa-a105-e04f61f87404",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "fc51ff85-0507-49f8-8e33-d5e94e91bbd9",
+          "@type": "skos:Concept"
+        },
+        {
+          "@id": "1997f51c-02cf-4f0f-a230-9bc497245f18",
+          "@type": "skos:Concept"
+        }
+      ],
+      "name": "Stadt Mirow",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rudolf-Breitscheid-Straße 24",
+        "postalCode": "17252",
+        "addressLocality": "Mirow",
+        "@id": "e5038184-0faf-4032-bd14-295ce2917e0d",
+        "telephone": "039833 28032"
+      },
+      "geo": {
+        "longitude": 12.81598,
+        "@id": "e5038184-0faf-4032-bd14-4dd00e7607be",
+        "@type": "GeoCoordinates",
+        "latitude": 53.27858
+      },
+      "dc:slug": "stadt-mirow-1",
+      "dc:contentScore": [
+        {
+          "@type": "PropertyValue",
+          "identifier": "internalContentScore",
+          "name": "Interner Content Score",
+          "@id": "e5038184-0faf-4032-bd14-92c9697e1aab",
+          "value": 61.0,
+          "minValue": 0,
+          "maxValue": 100
+        }
+      ]
     }
   ],
   "meta": {
