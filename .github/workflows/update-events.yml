@@ -19,7 +19,7 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Daten von TMV ContentHub abrufen und speichern
+      - name: Daten von TMV ContentHub abrufen, anreichern und speichern
         run: |
           python -c '
           import json
@@ -27,8 +27,8 @@ jobs:
 
           url = "https://contenthub.tmv.de/api/v4/endpoints/746971a3-49fd-4e83-af9e-15a64b9991c3"
           token = "7e7d7b65eaf77d045c91936b76b7e764"
+          base_universal = "https://contenthub.tmv.de/api/v4/universal/"
           
-          # Filter für alle Veranstaltungen über alle Mandanten hinweg
           payload = {
               "filter": {
                   "classifications": {
@@ -39,14 +39,16 @@ jobs:
               }
           }
 
+          headers = {
+              "Authorization": f"Bearer {token}",
+              "Content-Type": "application/json",
+              "Accept": "application/json"
+          }
+
           req = urllib.request.Request(
               url,
               data=json.dumps(payload).encode("utf-8"),
-              headers={
-                  "Authorization": f"Bearer {token}",
-                  "Content-Type": "application/json",
-                  "Accept": "application/json"
-              },
+              headers=headers,
               method="POST"
           )
 
@@ -55,11 +57,49 @@ jobs:
                   res_data = response.read().decode("utf-8")
                   parsed = json.loads(res_data)
                   
+                  graph = parsed.get("@graph", [])
+                  existing_ids = {node.get("@id") for node in graph if "@id" in node}
+                  
+                  # Alle referenzierten location- und organizer-IDs einsammeln
+                  ref_ids = set()
+                  for item in graph:
+                      for field in ("location", "organizer", "image"):
+                          refs = item.get(field, [])
+                          if isinstance(refs, dict):
+                              refs = [refs]
+                          elif not isinstance(refs, list):
+                              refs = []
+                          for ref in refs:
+                              ref_id = ref.get("@id") if isinstance(ref, dict) else (ref if isinstance(ref, str) else None)
+                              if ref_id and ref_id not in existing_ids:
+                                  ref_ids.add(ref_id)
+
+                  # Fehlende Knoten (Spielstätten/Organisatoren) einzeln nachladen und einbetten
+                  for ref_id in ref_ids:
+                      detail_url = ref_id if ref_id.startswith("http") else f"{base_universal}{ref_id}"
+                      try:
+                          detail_req = urllib.request.Request(detail_url, headers={"Authorization": f"Bearer {token}", "Accept": "application/json"})
+                          with urllib.request.urlopen(detail_req) as det_res:
+                              det_data = json.loads(det_res.read().decode("utf-8"))
+                              if "@graph" in det_data:
+                                  for sub_node in det_data["@graph"]:
+                                      if sub_node.get("@id") not in existing_ids:
+                                          graph.append(sub_node)
+                                          existing_ids.add(sub_node.get("@id"))
+                              else:
+                                  if det_data.get("@id") and det_data.get("@id") not in existing_ids:
+                                      graph.append(det_data)
+                                      existing_ids.add(det_data.get("@id"))
+                      except Exception as sub_e:
+                          print(f"Konnte Referenz {ref_id} nicht laden: {sub_e}")
+
+                  parsed["@graph"] = graph
+
                   with open("events.json", "w", encoding="utf-8") as f:
                       json.dump(parsed, f, ensure_ascii=False, indent=2)
                   
                   total_count = parsed.get("meta", {}).get("total", "unbekannt")
-                  print(f"Erfolgreich aktualisiert. Anzahl der gefundenen Veranstaltungen: {total_count}")
+                  print(f"Erfolgreich aktualisiert. Veranstaltungen: {total_count}, Gesamt-Knoten im Graph: {len(graph)}")
           except Exception as e:
               print(f"Fehler beim Abrufen der Schnittstelle: {e}")
               exit(1)
@@ -70,5 +110,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add events.json
-          git diff --staged --quiet || git commit -m "Automatischer Event-Export aller Mandanten aktualisiert"
+          git diff --staged --quiet || git commit -m "Automatischer Event-Export mit eingebetteten Spielstätten aktualisiert"
           git push
