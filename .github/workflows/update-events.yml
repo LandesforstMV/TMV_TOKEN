@@ -111,10 +111,12 @@ jobs:
                   print(f"Fehler: Die API meldet {total} Veranstaltungen, geladen wurden aber nur {event_count}. events.json wird nicht überschrieben.")
                   sys.exit(1)
 
-              # --- Alle referenzierten location-, organizer- und image-IDs einsammeln ---
+              # --- Alle referenzierten location-, organizer-, image- und
+              #     dc:additionalInformation-IDs einsammeln (Letztere enthalten
+              #     die Langbeschreibungen "Ergänzende Information") ---
               ref_ids = set()
               for item in graph:
-                  for field in ("location", "organizer", "image"):
+                  for field in ("location", "organizer", "image", "dc:additionalInformation"):
                       refs = item.get(field, [])
                       if isinstance(refs, dict):
                           refs = [refs]
@@ -125,7 +127,7 @@ jobs:
                           if ref_id and ref_id not in existing_ids:
                               ref_ids.add(ref_id)
 
-              # --- Fehlende Knoten (Spielstätten/Organisatoren) einzeln nachladen und einbetten ---
+              # --- Fehlende Knoten (Spielstätten/Organisatoren/Infotexte) einzeln nachladen und einbetten ---
               for ref_id in ref_ids:
                   detail_url = ref_id if ref_id.startswith("http") else f"{base_universal}{ref_id}"
                   try:
