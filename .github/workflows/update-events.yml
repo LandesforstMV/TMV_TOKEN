@@ -2,7 +2,7 @@ name: Update Events JSON
 
 on:
   schedule:
-    - cron: '0 6 * * *' # Läuft jeden Tag um 06:00 Uhr UTC
+    - cron: '0 */2 * * *' # Läuft alle 2 Stunden (zur vollen Stunde)
   workflow_dispatch: # Ermöglicht den manuellen Start über den GitHub-Tab "Actions"
 
 jobs:
